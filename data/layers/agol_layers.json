@@ -1,0 +1,33 @@
+{
+  "portal": "https://geowb.maps.arcgis.com",
+  "defaults": {
+    "batch_size": 100,
+    "max_record_count": 10000,
+    "tags": [
+      "ethiopia",
+      "geo hub"
+    ]
+  },
+  "layers": {
+    "piu_project_locations_adm3": {
+      "title": "Ethiopia PIU Project Locations - ADM3",
+      "layer_name": "piu_project_locations_adm3",
+      "path": "data/processed/piu_project_locations_adm3.geojson",
+      "item_id": "",
+      "snippet": "World Bank-supported Ethiopia PIU project locations joined to FCV-modified ADM3 woreda polygons.",
+      "description": "Project-location polygons derived from the PIU survey export and matched to Woredas_FCVModified/Eth_Admin3_v2.shp. One feature represents one project in one ADM3 area. Rebuild the GeoJSON with scripts/build_piu_adm3_locations.py before publishing.",
+      "share": {
+        "org": false,
+        "everyone": false,
+        "group_ids": []
+      },
+      "tags": [
+        "piu",
+        "portfolio",
+        "projects",
+        "adm3",
+        "woreda"
+      ]
+    }
+  }
+}

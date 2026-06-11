@@ -1,0 +1,647 @@
+csv_row,project_code,project_name,survey_woreda,survey_parent,match_status,match_method,boundary_woreda,boundary_zone,boundary_region,boundary_pcode
+2,P176327,Ethiopia Flood Management Project,Merti,Arsi,matched,exact,Merti,Arsi,Oromia,ET040801
+2,P176327,Ethiopia Flood Management Project,Arba Minch Zuria,Gamo,matched,exact,Arba Minch Zuria,Gamo,South Ethiopia,ET080202
+2,P176327,Ethiopia Flood Management Project,Arba Minch town,Gamo,matched,exact,Arba Minch town,Gamo,South Ethiopia,ET080201
+3,P148850,Ethiopia Expressway Development Support,Arsi Negele,West Arsi,matched,exact,Arsi Negele,West Arsi,Oromia,ET041703
+3,P148850,Ethiopia Expressway Development Support,Adama Tulu Jido Kombolcha,East Shewa,matched,exact,Adama Tulu Jido Kombolcha,East Shewa,Oromia,ET040708
+5,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Dabat,North Gondar,matched,exact,Dabat,North Gondar,Amhara,ET030105
+5,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Dabat town,North Gondar,matched,exact,Dabat town,North Gondar,Amhara,ET030106
+5,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Mao Komo special woreda,Mao Komo special woreda,matched,alias,Maokomo Special,Mao Komo Special,Benishangul Gumuz,ET060508
+5,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Bambasi,Assosa,matched,exact,Bambasi,Assosa,Benishangul Gumuz,ET060305
+5,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Homosha,Assosa,matched,exact,Homosha,Assosa,Benishangul Gumuz,ET060307
+5,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Assosa town,Assosa,matched,normalized,Assosa town Administration,Assosa,Benishangul Gumuz,ET060309
+5,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Abrahmo,Assosa,matched,exact,Abrahmo,Assosa,Benishangul Gumuz,ET060303
+5,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Bambasi town,Assosa,matched,exact,Bambasi town,Assosa,Benishangul Gumuz,ET060310
+5,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Ura,Assosa,matched,exact,Ura,Assosa,Benishangul Gumuz,ET060311
+5,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Itang special woreda,Itang special woreda,matched,normalized,Itang,Itang Special woreda,Gambela,ET120407
+5,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Gambela Zuria,Anuak,matched,exact,Gambela Zuria,Agnewak,Gambela,ET120202
+5,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Gog,Anuak,matched,exact,Gog,Agnewak,Gambela,ET120203
+5,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Dima (GM),Anuak,matched,exact,Dima (GM),Agnewak,Gambela,ET120205
+5,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Gambela town,Anuak,matched,exact,Gambela town,Agnewak,Gambela,ET120206
+5,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Lare,Nuer,matched,exact,Lare,Nuwer,Gambela,ET120102
+5,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Dolobay,Afder,matched,exact,Dolobay,Afder,Somali,ET050808
+5,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Aw-Bare,Fafan,matched,exact,Aw-Bare,Fafan,Somali,ET050205
+5,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Kebribeyah,Fafan,matched,exact,Kebribeyah,Fafan,Somali,ET050206
+5,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Kebribayah town,Fafan,matched,exact,Kebribayah town,Fafan,Somali,ET050296
+5,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Dolo Ado,Liben,matched,exact,Dolo Ado,Liban,Somali,ET050902
+5,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Bokolmayo,Liben,matched,exact,Bokolmayo,Liban,Somali,ET050999
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Merti,Arsi,matched,exact,Merti,Arsi,Oromia,ET040801
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Aseko,Arsi,matched,exact,Aseko,Arsi,Oromia,ET040802
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Golocha,Arsi,matched,alias,Gololcha,Arsi,Oromia,ET040803
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Jeju,Arsi,matched,exact,Jeju,Arsi,Oromia,ET040804
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Dodota,Arsi,matched,exact,Dodota,Arsi,Oromia,ET040805
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Ziway Dugda,Arsi,matched,exact,Ziway Dugda,Arsi,Oromia,ET040806
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Hitosa,Arsi,matched,exact,Hitosa,Arsi,Oromia,ET040807
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Sude,Arsi,matched,exact,Sude,Arsi,Oromia,ET040808
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Chole,Arsi,matched,exact,Chole,Arsi,Oromia,ET040809
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Amigna,Arsi,matched,exact,Amigna,Arsi,Oromia,ET040810
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Seru,Arsi,matched,exact,Seru,Arsi,Oromia,ET040811
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Robe,Arsi,matched,exact,Robe,Arsi,Oromia,ET040812
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Tena,Arsi,matched,exact,Tena,Arsi,Oromia,ET040813
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Shirka,Arsi,matched,exact,Shirka,Arsi,Oromia,ET040814
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Degeluna Tijo,Arsi,matched,exact,Degeluna Tijo,Arsi,Oromia,ET040815
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Tiyo,Arsi,matched,exact,Tiyo,Arsi,Oromia,ET040816
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Munessa,Arsi,matched,exact,Munessa,Arsi,Oromia,ET040817
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Limu Bilbilo,Arsi,matched,exact,Limu Bilbilo,Arsi,Oromia,ET040818
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Guna,Arsi,matched,exact,Guna,Arsi,Oromia,ET040819
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Sire,Arsi,matched,exact,Sire,Arsi,Oromia,ET040820
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Lude Hitosa,Arsi,matched,exact,Lude Hitosa,Arsi,Oromia,ET040821
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Diksis,Arsi,matched,exact,Diksis,Arsi,Oromia,ET040822
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Bele Gesgar,Arsi,matched,alias,Bale Gesgar,Arsi,Oromia,ET040823
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Inkolo Wabe,Arsi,matched,exact,Inkolo Wabe,Arsi,Oromia,ET040824
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Shanan Kolu,Arsi,matched,exact,Shanan Kolu,Arsi,Oromia,ET040893
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Siraro,West Arsi,matched,exact,Siraro,West Arsi,Oromia,ET041701
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Shala,West Arsi,matched,exact,Shala,West Arsi,Oromia,ET041702
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Arsi Negele,West Arsi,matched,exact,Arsi Negele,West Arsi,Oromia,ET041703
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Kofele,West Arsi,matched,exact,Kofele,West Arsi,Oromia,ET041704
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Kore,West Arsi,matched,exact,Kore,West Arsi,Oromia,ET041705
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Gedeb Asasa,West Arsi,matched,exact,Gedeb Asasa,West Arsi,Oromia,ET041706
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Dodola,West Arsi,matched,exact,Dodola,West Arsi,Oromia,ET041707
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Kokosa,West Arsi,matched,exact,Kokosa,West Arsi,Oromia,ET041708
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Nenesebo,West Arsi,matched,exact,Nenesebo,West Arsi,Oromia,ET041709
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Shashemene town (incl. Bishan Guracha),West Arsi,matched,normalized_ambiguous_first,Shashemene town,West Arsi,Oromia,ET041711
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Shashemene,West Arsi,matched,normalized,Shashemene (incl. Bishan Guracha),West Arsi,Oromia,ET041712
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Heban Arsi,West Arsi,matched,exact,Heban Arsi,West Arsi,Oromia,ET041783
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Wondo,West Arsi,matched,exact,Wondo,West Arsi,Oromia,ET041797
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Arsi Negele town,West Arsi,matched,exact,Arsi Negele town,West Arsi,Oromia,ET041799
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Adaba,West Arsi,matched,exact,Adaba,West Arsi,Oromia,ET041710
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Agarfa,Bale,matched,exact,Agarfa,Bale,Oromia,ET041104
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Gasera,Bale,matched,exact,Gasera,Bale,Oromia,ET041106
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Sinana,Bale,matched,exact,Sinana,Bale,Oromia,ET041109
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Goba (OR),Bale,matched,exact,Goba (OR),Bale,Oromia,ET041110
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Harena Buluk,Bale,matched,exact,Harena Buluk,Bale,Oromia,ET041111
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Mena (Bale),Bale,matched,exact,Mena (Bale),Bale,Oromia,ET041112
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Meda Welabu,Bale,matched,exact,Meda Welabu,East Borena,Oromia,ET042203
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Berbere,Bale,matched,exact,Berbere,Bale,Oromia,ET041114
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Gura Damole,Bale,matched,exact,Gura Damole,Bale,Oromia,ET041115
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Goro (Bale),Bale,matched,exact,Goro (Bale),Bale,Oromia,ET041116
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Dinsho,Bale,matched,exact,Dinsho,Bale,Oromia,ET041122
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Gololcha Bale,East Bale,matched,exact,Gololcha Bale,East Bale,Oromia,ET042101
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Lege Hida,East Bale,matched,exact,Lege Hida,East Bale,Oromia,ET042102
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Ginir,East Bale,matched,exact,Ginir,East Bale,Oromia,ET042103
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Rayitu,East Bale,matched,exact,Rayitu,East Bale,Oromia,ET042104
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Seweyna,East Bale,matched,exact,Seweyna,East Bale,Oromia,ET042105
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Dawe Ketchen,East Bale,matched,exact,Dawe Ketchen,East Bale,Oromia,ET042106
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Ginir town,East Bale,matched,exact,Ginir town,East Bale,Oromia,ET042107
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Dawe Serer,East Bale,matched,alias,Elkare /Serer,Afder,Somali,ET050804
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Yabelo,Borena,matched,exact,Yabelo,Borena,Oromia,ET041207
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Moyale (OR),Borena,matched,exact,Moyale (OR),Borena,Oromia,ET041210
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Dire,Borena,matched,exact,Dire,Borena,Oromia,ET041211
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Teltale,Borena,matched,exact,Teltale,Borena,Oromia,ET041212
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Miyo,Borena,matched,exact,Miyo,Borena,Oromia,ET041216
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Dilo,Borena,matched,exact,Dilo,Borena,Oromia,ET041219
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Gomole,Borena,matched,exact,Gomole,Borena,Oromia,ET041223
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Guchi,Borena,matched,exact,Guchi,Borena,Oromia,ET041290
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Dubluk,Borena,matched,exact,Dubluk,Borena,Oromia,ET041291
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Elwaya,Borena,matched,exact,Elwaya,Borena,Oromia,ET041295
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Negele town,East Borena,matched,exact,Negele town,East Borena,Oromia,ET042201
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Liben,East Borena,matched,exact,Liben,East Borena,Oromia,ET042202
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Meda Welabu,East Borena,matched,exact,Meda Welabu,East Borena,Oromia,ET042203
+6,P151294,Oromia Forested Landscape Program Emission Reduction,West Welabu,East Borena,matched,exact,West Welabu,East Borena,Oromia,ET042204
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Gora Dola,East Borena,matched,alias,Goro Dola,East Borena,Oromia,ET042205
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Gumi Idalo,East Borena,matched,alias,Gumi Eldalo,East Borena,Oromia,ET042206
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Arero,East Borena,matched,exact,Arero,East Borena,Oromia,ET042207
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Wachile,East Borena,matched,exact,Wachile,East Borena,Oromia,ET042208
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Dhas,East Borena,matched,exact,Dhas,East Borena,Oromia,ET042209
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Chora (Buno Bedele),Buno Bedele,matched,exact,Chora (Buno Bedele),Buno Bedele,Oromia,ET041603
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Dega,Buno Bedele,matched,exact,Dega,Buno Bedele,Oromia,ET041604
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Dabo Hana,Buno Bedele,matched,exact,Dabo Hana,Buno Bedele,Oromia,ET041605
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Gechi,Buno Bedele,matched,exact,Gechi,Buno Bedele,Oromia,ET041606
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Borecha,Buno Bedele,matched,exact,Borecha,Buno Bedele,Oromia,ET041607
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Dedesa,Buno Bedele,matched,exact,Dedesa,Buno Bedele,Oromia,ET041608
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Mako,Buno Bedele,matched,alias,Meko,Buno Bedele,Oromia,ET041618
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Bedele Zuria,Buno Bedele,matched,exact,Bedele Zuria,Buno Bedele,Oromia,ET041622
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Chwaka,Buno Bedele,matched,exact,Chwaka,Buno Bedele,Oromia,ET041623
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Shager City,Shager City in Oromia Region,unmatched,unmatched,,,,
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Uraga,Guji,matched,exact,Uraga,Guji,Oromia,ET041401
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Bore,Guji,matched,exact,Bore,Guji,Oromia,ET041402
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Adola,Guji,matched,exact,Adola,Guji,Oromia,ET041403
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Wadera,Guji,matched,exact,Wadera,Guji,Oromia,ET041404
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Odo Shakiso,Guji,matched,exact,Odo Shakiso,Guji,Oromia,ET041405
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Dama,Guji,matched,exact,Dama,Guji,Oromia,ET041408
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Arda Jila,Guji,matched,exact,Arda Jila,Guji,Oromia,ET041409
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Harenfema,Guji,matched,normalized,Girja /Harenfema,Guji,Oromia,ET041410
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Ana Sora,Guji,matched,exact,Ana Sora,Guji,Oromia,ET041411
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Saba Boru,Guji,matched,exact,Saba Boru,Guji,Oromia,ET041412
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Aga Wayu,Guji,matched,exact,Aga Wayu,Guji,Oromia,ET041482
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Haro Walabu,Guji,matched,exact,Haro Walabu,Guji,Oromia,ET041490
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Adola town,Guji,matched,exact,Adola town,Guji,Oromia,ET041492
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Bule Hora,West Guji,matched,exact,Bule Hora,West Guji,Oromia,ET041501
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Kercha,West Guji,matched,exact,Kercha,West Guji,Oromia,ET041502
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Hambela Wamena,West Guji,matched,exact,Hambela Wamena,West Guji,Oromia,ET041509
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Abaya,West Guji,matched,exact,Abaya,West Guji,Oromia,ET041513
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Dugda Dawa,West Guji,matched,exact,Dugda Dawa,West Guji,Oromia,ET041515
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Gelana (West Guji),West Guji,matched,exact,Gelana (West Guji),West Guji,Oromia,ET041517
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Melka Soda,West Guji,matched,exact,Melka Soda,West Guji,Oromia,ET041518
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Suro Berguda,West Guji,matched,exact,Suro Berguda,West Guji,Oromia,ET041594
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Birbirsa Kojowa,West Guji,matched,exact,Birbirsa Kojowa,West Guji,Oromia,ET041596
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Kercha town,West Guji,matched,exact,Kercha town,West Guji,Oromia,ET041503
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Kombolcha,East Haraghe,matched,exact,Kombolcha,East Hararge,Oromia,ET041001
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Jarso (East Hararghe),East Haraghe,matched,exact,Jarso (East Hararghe),East Hararge,Oromia,ET041002
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Gursum (OR),East Haraghe,matched,exact,Gursum (OR),East Hararge,Oromia,ET041003
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Babile (OR),East Haraghe,matched,exact,Babile (OR),East Hararge,Oromia,ET041004
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Fedis,East Haraghe,matched,exact,Fedis,East Hararge,Oromia,ET041005
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Haramaya woreda,East Haraghe,matched,alias,Haro Maya,East Hararge,Oromia,ET041006
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Maya town (incl. Aweday and Adelle),East Haraghe,matched,exact,Maya town (incl. Aweday and Adelle),East Hararge,Oromia,ET041019
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Kurfa Chele,East Haraghe,matched,exact,Kurfa Chele,East Hararge,Oromia,ET041007
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Meta,East Haraghe,matched,exact,Meta,East Hararge,Oromia,ET041009
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Goro Gutu,East Haraghe,matched,exact,Goro Gutu,East Hararge,Oromia,ET041010
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Deder,East Haraghe,matched,exact,Deder,East Hararge,Oromia,ET041011
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Melka Balo,East Haraghe,matched,exact,Melka Balo,East Hararge,Oromia,ET041012
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Bedeno,East Haraghe,matched,exact,Bedeno,East Hararge,Oromia,ET041013
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Midhaga Tola,East Haraghe,matched,exact,Midhaga Tola,East Hararge,Oromia,ET041014
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Chinaksen,East Haraghe,matched,exact,Chinaksen,East Hararge,Oromia,ET041015
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Girawa,East Haraghe,matched,exact,Girawa,East Hararge,Oromia,ET041016
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Golo Oda,East Haraghe,matched,exact,Golo Oda,East Hararge,Oromia,ET041017
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Meyu Muleke,East Haraghe,matched,exact,Meyu Muleke,East Hararge,Oromia,ET041018
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Goro Muti,East Haraghe,matched,exact,Goro Muti,East Hararge,Oromia,ET041089
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Kumbi,East Haraghe,matched,exact,Kumbi,East Hararge,Oromia,ET041098
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Mieso,West Haraghe,matched,exact,Mieso,West Hararge,Oromia,ET040901
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Doba,West Haraghe,matched,exact,Doba,West Hararge,Oromia,ET040902
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Tulo (OR),West Haraghe,matched,exact,Tulo (OR),West Hararge,Oromia,ET040903
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Shen Duggoo,West Haraghe,matched,normalized,Mesela /Shen Duggoo,West Hararge,Oromia,ET040904
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Anchar,West Haraghe,matched,exact,Anchar,West Hararge,Oromia,ET040906
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Goba Koricha,West Haraghe,matched,exact,Goba Koricha,West Hararge,Oromia,ET040907
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Habro,West Haraghe,matched,exact,Habro,West Hararge,Oromia,ET040908
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Daro Lebu,West Haraghe,matched,exact,Daro Lebu,West Hararge,Oromia,ET040909
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Boke,West Haraghe,matched,exact,Boke,West Hararge,Oromia,ET040910
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Oda Bultum,West Haraghe,matched,alias,Kuni /Oda Bultum,West Hararge,Oromia,ET040911
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Gemechis,West Haraghe,matched,exact,Gemechis,West Hararge,Oromia,ET040912
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Bedesa,West Haraghe,matched,normalized,Bedesa town,West Hararge,Oromia,ET040914
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Hawi Gudina,West Haraghe,matched,exact,Hawi Gudina,West Hararge,Oromia,ET040915
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Gumbi Bordede,West Haraghe,matched,exact,Gumbi Bordede,West Hararge,Oromia,ET040991
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Burqua Dhintu,West Haraghe,matched,exact,Burqua Dhintu,West Hararge,Oromia,ET040998
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Darimu,Ilu Aba Bora,matched,exact,Darimu,Ilu Aba Bora,Oromia,ET040301
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Alge Sachi,Ilu Aba Bora,matched,exact,Alge Sachi,Ilu Aba Bora,Oromia,ET040302
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Yayu,Ilu Aba Bora,matched,exact,Yayu,Ilu Aba Bora,Oromia,ET040309
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Metu Zuria,Ilu Aba Bora,matched,exact,Metu Zuria,Ilu Aba Bora,Oromia,ET040310
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Ale,Ilu Aba Bora,matched,exact,Ale,Ilu Aba Bora,Oromia,ET040311
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Bure (OR),Ilu Aba Bora,matched,exact,Bure (OR),Ilu Aba Bora,Oromia,ET040312
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Sale Nono,Ilu Aba Bora,matched,exact,Sale Nono,Ilu Aba Bora,Oromia,ET040313
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Becho (Ilu Aba Bora),Ilu Aba Bora,matched,exact,Becho (Ilu Aba Bora),Ilu Aba Bora,Oromia,ET040314
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Bilo Nopha,Ilu Aba Bora,matched,exact,Bilo Nopha,Ilu Aba Bora,Oromia,ET040315
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Hurumu,Ilu Aba Bora,matched,exact,Hurumu,Ilu Aba Bora,Oromia,ET040316
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Didu,Ilu Aba Bora,matched,exact,Didu,Ilu Aba Bora,Oromia,ET040317
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Huka,Ilu Aba Bora,matched,alias,Halu /Huka,Ilu Aba Bora,Oromia,ET040319
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Dorani,Ilu Aba Bora,matched,exact,Dorani,Ilu Aba Bora,Oromia,ET040324
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Limu Seka,Jimma,matched,exact,Limu Seka,Jimma,Oromia,ET040401
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Limu Kosa,Jimma,matched,exact,Limu Kosa,Jimma,Oromia,ET040402
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Sekoru,Jimma,matched,exact,Sekoru,Jimma,Oromia,ET040403
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Tiro Afeta,Jimma,matched,exact,Tiro Afeta,Jimma,Oromia,ET040404
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Kersa (Jimma),Jimma,matched,exact,Kersa (Jimma),Jimma,Oromia,ET040405
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Mena (Jimma),Jimma,matched,exact,Mena (Jimma),Jimma,Oromia,ET040406
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Goma,Jimma,matched,exact,Goma,Jimma,Oromia,ET040407
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Gera,Jimma,matched,exact,Gera,Jimma,Oromia,ET040408
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Seka Chekorsa,Jimma,matched,exact,Seka Chekorsa,Jimma,Oromia,ET040409
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Dedo,Jimma,matched,exact,Dedo,Jimma,Oromia,ET040410
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Omo Nada,Jimma,matched,exact,Omo Nada,Jimma,Oromia,ET040411
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Sigmo,Jimma,matched,exact,Sigmo,Jimma,Oromia,ET040412
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Setema,Jimma,matched,exact,Setema,Jimma,Oromia,ET040413
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Shebe Sambo,Jimma,matched,exact,Shebe Sambo,Jimma,Oromia,ET040414
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Chora,Jimma,matched,normalized,Chora (Jimma),Jimma,Oromia,ET040415
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Gumay,Jimma,matched,exact,Gumay,Jimma,Oromia,ET040416
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Agaro town,Jimma,matched,exact,Agaro town,Jimma,Oromia,ET040417
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Mancho,Jimma,matched,exact,Mancho,Jimma,Oromia,ET040490
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Omo Beyam,Jimma,matched,exact,Omo Beyam,Jimma,Oromia,ET040491
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Botor Tolay,Jimma,matched,exact,Botor Tolay,Jimma,Oromia,ET040495
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Nono Benja,Jimma,matched,exact,Nono Benja,Jimma,Oromia,ET040499
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Wara Jarso,North Shewa (OR),matched,exact,Wara Jarso,North Shewa (OR),Oromia,ET040601
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Dera (OR),North Shewa (OR),matched,exact,Dera (OR),North Shewa (OR),Oromia,ET040602
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Hidabu Abote,North Shewa (OR),matched,exact,Hidabu Abote,North Shewa (OR),Oromia,ET040603
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Kuyu,North Shewa (OR),matched,exact,Kuyu,North Shewa (OR),Oromia,ET040604
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Degem,North Shewa (OR),matched,exact,Degem,North Shewa (OR),Oromia,ET040605
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Gerar Jarso,North Shewa (OR),matched,exact,Gerar Jarso,North Shewa (OR),Oromia,ET040606
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Debre Libanos,North Shewa (OR),matched,exact,Debre Libanos,North Shewa (OR),Oromia,ET040607
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Wuchale,North Shewa (OR),matched,exact,Wuchale,North Shewa (OR),Oromia,ET040608
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Abichugna Gne'a,North Shewa (OR),matched,exact_ambiguous_first,Abichugna Gne'a,North Shewa (OR),Oromia,ET040609
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Kimbibit,North Shewa (OR),matched,exact,Kimbibit,North Shewa (OR),Oromia,ET040610
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Fiche town,North Shewa (OR),matched,exact,Fiche town,North Shewa (OR),Oromia,ET040613
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Yaya Gulele,North Shewa (OR),matched,exact,Yaya Gulele,North Shewa (OR),Oromia,ET040614
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Jida,North Shewa (OR),matched,exact,Jida,North Shewa (OR),Oromia,ET040615
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Aleltu,North Shewa (OR),matched,exact,Aleltu,North Shewa (OR),Oromia,ET040617
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Sheno town,North Shewa (OR),matched,exact,Sheno town,North Shewa (OR),Oromia,ET040611
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Garba Guracha,North Shewa (OR),matched,exact,Garba Guracha,North Shewa (OR),Oromia,ET040616
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Bereh,North Shewa (OR),matched,exact,Bereh,North Shewa (OR),Oromia,ET040619
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Sululta (OR),North Shewa (OR),matched,exact,Sululta (OR),North Shewa (OR),Oromia,ET040620
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Mulo,North Shewa (OR),matched,exact,Mulo,North Shewa (OR),Oromia,ET040622
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Fentale,East Shewa,matched,exact,Fentale,East Shewa,Oromia,ET040701
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Boset,East Shewa,matched,exact,Boset,East Shewa,Oromia,ET040702
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Adama,East Shewa,matched,exact,Adama,East Shewa,Oromia,ET040703
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Lome (OR),East Shewa,matched,exact,Lome (OR),East Shewa,Oromia,ET040704
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Gimbichu,East Shewa,matched,exact,Gimbichu,East Shewa,Oromia,ET040705
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Ada'a,East Shewa,matched,exact_ambiguous_first,Ada'a,East Shewa,Oromia,ET040706
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Dugda,East Shewa,matched,exact,Dugda,East Shewa,Oromia,ET040707
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Bora (OR),East Shewa,matched,exact,Bora (OR),East Shewa,Oromia,ET040710
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Liben Chukala,East Shewa,matched,exact,Liben Chukala,East Shewa,Oromia,ET040711
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Akaki,East Shewa,matched,exact,Akaki,East Shewa,Oromia,ET040712
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Adama town,East Shewa,matched,exact,Adama town,East Shewa,Oromia,ET040714
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Mojo town,East Shewa,matched,exact,Mojo town,East Shewa,Oromia,ET040797
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Batu town,East Shewa,matched,exact,Batu town,East Shewa,Oromia,ET040798
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Illu Galan,West Shewa,matched,exact,Illu Galan,West Shewa,Oromia,ET040500
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Ginde Beret,West Shewa,matched,exact,Ginde Beret,West Shewa,Oromia,ET040501
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Jeldu,West Shewa,matched,exact,Jeldu,West Shewa,Oromia,ET040502
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Ambo Zuria,West Shewa,matched,exact,Ambo Zuria,West Shewa,Oromia,ET040503
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Mida Kegn,West Shewa,matched,exact,Mida Kegn,West Shewa,Oromia,ET040504
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Cheliya,West Shewa,matched,exact,Cheliya,West Shewa,Oromia,ET040505
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Bako Tibe,West Shewa,matched,exact,Bako Tibe,West Shewa,Oromia,ET040506
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Dano,West Shewa,matched,exact,Dano,West Shewa,Oromia,ET040507
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Nono,West Shewa,matched,exact,Nono,West Shewa,Oromia,ET040508
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Tikur Enchini,West Shewa,matched,exact,Tikur Enchini,West Shewa,Oromia,ET040509
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Dendi,West Shewa,matched,exact,Dendi,West Shewa,Oromia,ET040510
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Addis Alem,West Shewa,matched,alias,Ejere /Addis Alem,West Shewa,Oromia,ET040511
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Adda Berga,West Shewa,matched,exact,Adda Berga,West Shewa,Oromia,ET040513
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Meta Robi,West Shewa,matched,exact,Meta Robi,West Shewa,Oromia,ET040514
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Abuna Ginde Beret,West Shewa,matched,exact,Abuna Ginde Beret,West Shewa,Oromia,ET040516
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Toke Kutaye,West Shewa,matched,exact,Toke Kutaye,West Shewa,Oromia,ET040517
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Jibat,West Shewa,matched,exact,Jibat,West Shewa,Oromia,ET040518
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Ifata,West Shewa,matched,exact,Ifata,West Shewa,Oromia,ET040519
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Ejersa Lafo,West Shewa,matched,exact,Ejersa Lafo,West Shewa,Oromia,ET040590
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Cobi,West Shewa,matched,exact,Cobi,West Shewa,Oromia,ET040592
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Meta Walkite,West Shewa,matched,exact,Meta Walkite,West Shewa,Oromia,ET040594
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Liban Jawi,West Shewa,matched,exact,Liban Jawi,West Shewa,Oromia,ET040597
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Ameya,Southwest Shewa,matched,exact,Ameya,South West Shewa,Oromia,ET041301
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Wenchi,Southwest Shewa,matched,exact,Wenchi,South West Shewa,Oromia,ET041302
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Waliso,Southwest Shewa,matched,exact,Waliso,South West Shewa,Oromia,ET041303
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Dawo,Southwest Shewa,matched,exact,Dawo,South West Shewa,Oromia,ET041304
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Ilu,Southwest Shewa,matched,exact,Ilu,South West Shewa,Oromia,ET041305
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Kersana Malima,Southwest Shewa,matched,exact,Kersana Malima,South West Shewa,Oromia,ET041307
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Tole,Southwest Shewa,matched,exact,Tole,South West Shewa,Oromia,ET041308
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Becho (SW Shewa),Southwest Shewa,matched,exact,Becho (SW Shewa),South West Shewa,Oromia,ET041309
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Seden Sodo,Southwest Shewa,matched,exact,Seden Sodo,South West Shewa,Oromia,ET041310
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Goro (SW Shewa),Southwest Shewa,matched,exact,Goro (SW Shewa),South West Shewa,Oromia,ET041312
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Sodo Daci,Southwest Shewa,matched,exact,Sodo Daci,South West Shewa,Oromia,ET041314
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Sebeta Hawas,Southwest Shewa,matched,exact,Sebeta Hawas,South West Shewa,Oromia,ET041306
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Limu (OR),East Wellega,matched,exact,Limu (OR),East Wellega,Oromia,ET040201
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Ibantu,East Wellega,matched,exact,Ibantu,East Wellega,Oromia,ET040202
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Gida Ayana,East Wellega,matched,exact,Gida Ayana,East Wellega,Oromia,ET040203
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Haro Limu,East Wellega,matched,exact,Haro Limu,East Wellega,Oromia,ET040204
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Boneya Boshe,East Wellega,matched,exact,Boneya Boshe,East Wellega,Oromia,ET040205
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Wayu Tuka,East Wellega,matched,exact,Wayu Tuka,East Wellega,Oromia,ET040206
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Bila Seyo,East Wellega,matched,exact,Bila Seyo,East Wellega,Oromia,ET040207
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Gobu Seyo,East Wellega,matched,exact,Gobu Seyo,East Wellega,Oromia,ET040208
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Sibu Sire,East Wellega,matched,exact,Sibu Sire,East Wellega,Oromia,ET040209
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Diga,East Wellega,matched,exact,Diga,East Wellega,Oromia,ET040210
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Sasiga,East Wellega,matched,exact,Sasiga,East Wellega,Oromia,ET040211
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Leka Dulecha,East Wellega,matched,exact,Leka Dulecha,East Wellega,Oromia,ET040212
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Guto Gida,East Wellega,matched,exact,Guto Gida,East Wellega,Oromia,ET040213
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Jimma Arjo,East Wellega,matched,exact,Jimma Arjo,East Wellega,Oromia,ET040214
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Nunu Kumba,East Wellega,matched,exact,Nunu Kumba,East Wellega,Oromia,ET040215
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Wama Hagalo,East Wellega,matched,exact,Wama Hagalo,East Wellega,Oromia,ET040216
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Kiremu,East Wellega,matched,exact,Kiremu,East Wellega,Oromia,ET040217
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Horo,Horo Guduru Wellega,matched,exact,Horo,Horo Gudru Wellega,Oromia,ET041901
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Guduru,Horo Guduru Wellega,matched,exact,Guduru,Horo Gudru Wellega,Oromia,ET041903
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Ababo,Horo Guduru Wellega,matched,exact,Ababo,Horo Gudru Wellega,Oromia,ET041904
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Abay Chomen,Horo Guduru Wellega,matched,exact,Abay Chomen,Horo Gudru Wellega,Oromia,ET041905
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Jimma Genete,Horo Guduru Wellega,matched,exact,Jimma Genete,Horo Gudru Wellega,Oromia,ET041906
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Jimma Rare,Horo Guduru Wellega,matched,exact,Jimma Rare,Horo Gudru Wellega,Oromia,ET041907
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Jarte Jardega,Horo Guduru Wellega,matched,exact,Jarte Jardega,Horo Gudru Wellega,Oromia,ET041908
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Amuru,Horo Guduru Wellega,matched,exact,Amuru,Horo Gudru Wellega,Oromia,ET041909
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Abe Dongoro,Horo Guduru Wellega,matched,exact,Abe Dongoro,Horo Gudru Wellega,Oromia,ET041910
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Choman Guduru,Horo Guduru Wellega,matched,exact,Choman Guduru,Horo Gudru Wellega,Oromia,ET041911
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Horo Buluk,Horo Guduru Wellega,matched,exact,Horo Buluk,Horo Gudru Wellega,Oromia,ET041912
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Sulula Finca'a,Horo Guduru Wellega,matched,exact,Sulula Finca'a,Horo Gudru Wellega,Oromia,ET041913
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Hawa Galan,Kellem Wellega,matched,exact,Hawa Galan,Kelem Wellega,Oromia,ET041801
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Yama Logi Welel,Kellem Wellega,matched,exact,Yama Logi Welel,Kelem Wellega,Oromia,ET041802
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Dale Wabera,Kellem Wellega,matched,exact,Dale Wabera,Kelem Wellega,Oromia,ET041803
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Gawo Kebe,Kellem Wellega,matched,exact,Gawo Kebe,Kelem Wellega,Oromia,ET041804
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Sayo,Kellem Wellega,matched,exact,Sayo,Kelem Wellega,Oromia,ET041805
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Anfilo,Kellem Wellega,matched,exact,Anfilo,Kelem Wellega,Oromia,ET041807
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Dale Sadi,Kellem Wellega,matched,exact,Dale Sadi,Kelem Wellega,Oromia,ET041808
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Gidami,Kellem Wellega,matched,exact,Gidami,Kelem Wellega,Oromia,ET041809
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Jimma Horo,Kellem Wellega,matched,exact,Jimma Horo,Kelem Wellega,Oromia,ET041810
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Lalo Kile,Kellem Wellega,matched,exact,Lalo Kile,Kelem Wellega,Oromia,ET041811
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Sedi Chenka,Kellem Wellega,matched,exact,Sedi Chenka,Kelem Wellega,Oromia,ET041812
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Mana Sibu,West Wellega,matched,exact,Mana Sibu,West Wellega,Oromia,ET040101
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Nejo,West Wellega,matched,exact,Nejo,West Wellega,Oromia,ET040102
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Gimbi,West Wellega,matched,exact,Gimbi,West Wellega,Oromia,ET040103
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Lalo Asabi,West Wellega,matched,exact,Lalo Asabi,West Wellega,Oromia,ET040104
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Kiltu Kara,West Wellega,matched,exact,Kiltu Kara,West Wellega,Oromia,ET040105
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Boji Dirmeji,West Wellega,matched,exact,Boji Dirmeji,West Wellega,Oromia,ET040106
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Ayira,West Wellega,matched,exact,Ayira,West Wellega,Oromia,ET040107
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Jarso (West Wellega),West Wellega,matched,exact,Jarso (West Wellega),West Wellega,Oromia,ET040108
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Gudetu Kondole,West Wellega,matched,exact,Gudetu Kondole,West Wellega,Oromia,ET040109
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Boji Chekorsa,West Wellega,matched,exact,Boji Chekorsa,West Wellega,Oromia,ET040110
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Babo,West Wellega,matched,exact,Babo,West Wellega,Oromia,ET040111
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Yubdo,West Wellega,matched,exact,Yubdo,West Wellega,Oromia,ET040112
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Gaji,West Wellega,matched,exact,Gaji,West Wellega,Oromia,ET040113
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Haru,West Wellega,matched,exact,Haru,West Wellega,Oromia,ET040114
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Nole Kaba,West Wellega,matched,exact,Nole Kaba,West Wellega,Oromia,ET040115
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Begi,West Wellega,matched,exact,Begi,West Wellega,Oromia,ET040116
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Homa,West Wellega,matched,exact,Homa,West Wellega,Oromia,ET040117
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Sayo Nole,West Wellega,matched,exact,Sayo Nole,West Wellega,Oromia,ET040118
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Guliso,West Wellega,matched,exact,Guliso,West Wellega,Oromia,ET040119
+6,P151294,Oromia Forested Landscape Program Emission Reduction,Leta Sibu,West Wellega,matched,exact,Leta Sibu,West Wellega,Oromia,ET040197
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Merti,Arsi,matched,exact,Merti,Arsi,Oromia,ET040801
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Aseko,Arsi,matched,exact,Aseko,Arsi,Oromia,ET040802
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Golocha,Arsi,matched,alias,Gololcha,Arsi,Oromia,ET040803
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Jeju,Arsi,matched,exact,Jeju,Arsi,Oromia,ET040804
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Dodota,Arsi,matched,exact,Dodota,Arsi,Oromia,ET040805
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Ziway Dugda,Arsi,matched,exact,Ziway Dugda,Arsi,Oromia,ET040806
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Hitosa,Arsi,matched,exact,Hitosa,Arsi,Oromia,ET040807
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Sude,Arsi,matched,exact,Sude,Arsi,Oromia,ET040808
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Chole,Arsi,matched,exact,Chole,Arsi,Oromia,ET040809
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Amigna,Arsi,matched,exact,Amigna,Arsi,Oromia,ET040810
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Seru,Arsi,matched,exact,Seru,Arsi,Oromia,ET040811
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Robe,Arsi,matched,exact,Robe,Arsi,Oromia,ET040812
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Tena,Arsi,matched,exact,Tena,Arsi,Oromia,ET040813
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Shirka,Arsi,matched,exact,Shirka,Arsi,Oromia,ET040814
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Degeluna Tijo,Arsi,matched,exact,Degeluna Tijo,Arsi,Oromia,ET040815
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Tiyo,Arsi,matched,exact,Tiyo,Arsi,Oromia,ET040816
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Munessa,Arsi,matched,exact,Munessa,Arsi,Oromia,ET040817
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Limu Bilbilo,Arsi,matched,exact,Limu Bilbilo,Arsi,Oromia,ET040818
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Guna,Arsi,matched,exact,Guna,Arsi,Oromia,ET040819
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Sire,Arsi,matched,exact,Sire,Arsi,Oromia,ET040820
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Lude Hitosa,Arsi,matched,exact,Lude Hitosa,Arsi,Oromia,ET040821
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Diksis,Arsi,matched,exact,Diksis,Arsi,Oromia,ET040822
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Bele Gesgar,Arsi,matched,alias,Bale Gesgar,Arsi,Oromia,ET040823
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Inkolo Wabe,Arsi,matched,exact,Inkolo Wabe,Arsi,Oromia,ET040824
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Asela town,Arsi,matched,exact,Asela town,Arsi,Oromia,ET040825
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Shanan Kolu,Arsi,matched,exact,Shanan Kolu,Arsi,Oromia,ET040893
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Bokoji town,Arsi,matched,exact,Bokoji town,Arsi,Oromia,ET040894
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Dera town,Arsi,matched,exact,Dera town,Arsi,Oromia,ET040895
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Dodola town,West Arsi,matched,exact,Dodola town,West Arsi,Oromia,ET041700
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Siraro,West Arsi,matched,exact,Siraro,West Arsi,Oromia,ET041701
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Shala,West Arsi,matched,exact,Shala,West Arsi,Oromia,ET041702
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Arsi Negele,West Arsi,matched,exact,Arsi Negele,West Arsi,Oromia,ET041703
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Kofele,West Arsi,matched,exact,Kofele,West Arsi,Oromia,ET041704
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Kore,West Arsi,matched,exact,Kore,West Arsi,Oromia,ET041705
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Gedeb Asasa,West Arsi,matched,exact,Gedeb Asasa,West Arsi,Oromia,ET041706
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Dodola,West Arsi,matched,exact,Dodola,West Arsi,Oromia,ET041707
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Kokosa,West Arsi,matched,exact,Kokosa,West Arsi,Oromia,ET041708
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Nenesebo,West Arsi,matched,exact,Nenesebo,West Arsi,Oromia,ET041709
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Shashemene town (incl. Bishan Guracha),West Arsi,matched,normalized_ambiguous_first,Shashemene town,West Arsi,Oromia,ET041711
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Heban Arsi,West Arsi,matched,exact,Heban Arsi,West Arsi,Oromia,ET041783
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Wondo,West Arsi,matched,exact,Wondo,West Arsi,Oromia,ET041797
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Arsi Negele town,West Arsi,matched,exact,Arsi Negele town,West Arsi,Oromia,ET041799
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Adaba,West Arsi,matched,exact,Adaba,West Arsi,Oromia,ET041710
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Kofele town,West Arsi,matched,exact,Kofele town,West Arsi,Oromia,ET041713
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Agarfa,Bale,matched,exact,Agarfa,Bale,Oromia,ET041104
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Gasera,Bale,matched,exact,Gasera,Bale,Oromia,ET041106
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Sinana,Bale,matched,exact,Sinana,Bale,Oromia,ET041109
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Goba (OR),Bale,matched,exact,Goba (OR),Bale,Oromia,ET041110
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Harena Buluk,Bale,matched,exact,Harena Buluk,Bale,Oromia,ET041111
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Mena (Bale),Bale,matched,exact,Mena (Bale),Bale,Oromia,ET041112
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Meda Welabu,Bale,matched,exact,Meda Welabu,East Borena,Oromia,ET042203
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Berbere,Bale,matched,exact,Berbere,Bale,Oromia,ET041114
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Gura Damole,Bale,matched,exact,Gura Damole,Bale,Oromia,ET041115
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Robe Town,Bale,matched,normalized,Robe town,Bale,Oromia,ET041119
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Goba town,Bale,matched,exact,Goba town,Bale,Oromia,ET041120
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Dinsho,Bale,matched,exact,Dinsho,Bale,Oromia,ET041122
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Gololcha Bale,East Bale,matched,exact,Gololcha Bale,East Bale,Oromia,ET042101
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Lege Hida,East Bale,matched,exact,Lege Hida,East Bale,Oromia,ET042102
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Ginir,East Bale,matched,exact,Ginir,East Bale,Oromia,ET042103
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Rayitu,East Bale,matched,exact,Rayitu,East Bale,Oromia,ET042104
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Seweyna,East Bale,matched,exact,Seweyna,East Bale,Oromia,ET042105
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Chora (Buno Bedele),Buno Bedele,matched,exact,Chora (Buno Bedele),Buno Bedele,Oromia,ET041603
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Dega,Buno Bedele,matched,exact,Dega,Buno Bedele,Oromia,ET041604
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Dabo Hana,Buno Bedele,matched,exact,Dabo Hana,Buno Bedele,Oromia,ET041605
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Gechi,Buno Bedele,matched,exact,Gechi,Buno Bedele,Oromia,ET041606
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Borecha,Buno Bedele,matched,exact,Borecha,Buno Bedele,Oromia,ET041607
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Dedesa,Buno Bedele,matched,exact,Dedesa,Buno Bedele,Oromia,ET041608
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Mako,Buno Bedele,matched,alias,Meko,Buno Bedele,Oromia,ET041618
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Bedele Zuria,Buno Bedele,matched,exact,Bedele Zuria,Buno Bedele,Oromia,ET041622
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Chwaka,Buno Bedele,matched,exact,Chwaka,Buno Bedele,Oromia,ET041623
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Uraga,Guji,matched,exact,Uraga,Guji,Oromia,ET041401
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Bore,Guji,matched,exact,Bore,Guji,Oromia,ET041402
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Adola,Guji,matched,exact,Adola,Guji,Oromia,ET041403
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Wadera,Guji,matched,exact,Wadera,Guji,Oromia,ET041404
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Odo Shakiso,Guji,matched,exact,Odo Shakiso,Guji,Oromia,ET041405
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Dama,Guji,matched,exact,Dama,Guji,Oromia,ET041408
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Arda Jila,Guji,matched,exact,Arda Jila,Guji,Oromia,ET041409
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Harenfema,Guji,matched,normalized,Girja /Harenfema,Guji,Oromia,ET041410
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Ana Sora,Guji,matched,exact,Ana Sora,Guji,Oromia,ET041411
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Saba Boru,Guji,matched,exact,Saba Boru,Guji,Oromia,ET041412
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Aga Wayu,Guji,matched,exact,Aga Wayu,Guji,Oromia,ET041482
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Bule Hora,West Guji,matched,exact,Bule Hora,West Guji,Oromia,ET041501
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Kercha,West Guji,matched,exact,Kercha,West Guji,Oromia,ET041502
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Hambela Wamena,West Guji,matched,exact,Hambela Wamena,West Guji,Oromia,ET041509
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Abaya,West Guji,matched,exact,Abaya,West Guji,Oromia,ET041513
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Dugda Dawa,West Guji,matched,exact,Dugda Dawa,West Guji,Oromia,ET041515
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Gelana (West Guji),West Guji,matched,exact,Gelana (West Guji),West Guji,Oromia,ET041517
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Melka Soda,West Guji,matched,exact,Melka Soda,West Guji,Oromia,ET041518
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Bule Hora town,West Guji,matched,exact,Bule Hora town,West Guji,Oromia,ET041587
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Suro Berguda,West Guji,matched,exact,Suro Berguda,West Guji,Oromia,ET041594
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Birbirsa Kojowa,West Guji,matched,exact,Birbirsa Kojowa,West Guji,Oromia,ET041596
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Kombolcha,East Haraghe,matched,exact,Kombolcha,East Hararge,Oromia,ET041001
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Jarso (East Hararghe),East Haraghe,matched,exact,Jarso (East Hararghe),East Hararge,Oromia,ET041002
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Gursum (OR),East Haraghe,matched,exact,Gursum (OR),East Hararge,Oromia,ET041003
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Babile (OR),East Haraghe,matched,exact,Babile (OR),East Hararge,Oromia,ET041004
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Fedis,East Haraghe,matched,exact,Fedis,East Hararge,Oromia,ET041005
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Haramaya woreda,East Haraghe,matched,alias,Haro Maya,East Hararge,Oromia,ET041006
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Maya town (incl. Aweday and Adelle),East Haraghe,matched,exact,Maya town (incl. Aweday and Adelle),East Hararge,Oromia,ET041019
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Kurfa Chele,East Haraghe,matched,exact,Kurfa Chele,East Hararge,Oromia,ET041007
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Kersa (East Hararge),East Haraghe,matched,exact,Kersa (East Hararge),East Hararge,Oromia,ET041008
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Meta,East Haraghe,matched,exact,Meta,East Hararge,Oromia,ET041009
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Goro Gutu,East Haraghe,matched,exact,Goro Gutu,East Hararge,Oromia,ET041010
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Deder,East Haraghe,matched,exact,Deder,East Hararge,Oromia,ET041011
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Melka Balo,East Haraghe,matched,exact,Melka Balo,East Hararge,Oromia,ET041012
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Bedeno,East Haraghe,matched,exact,Bedeno,East Hararge,Oromia,ET041013
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Midhaga Tola,East Haraghe,matched,exact,Midhaga Tola,East Hararge,Oromia,ET041014
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Chinaksen,East Haraghe,matched,exact,Chinaksen,East Hararge,Oromia,ET041015
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Girawa,East Haraghe,matched,exact,Girawa,East Hararge,Oromia,ET041016
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Golo Oda,East Haraghe,matched,exact,Golo Oda,East Hararge,Oromia,ET041017
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Meyu Muleke,East Haraghe,matched,exact,Meyu Muleke,East Hararge,Oromia,ET041018
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Goro Muti,East Haraghe,matched,exact,Goro Muti,East Hararge,Oromia,ET041089
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Kumbi,East Haraghe,matched,exact,Kumbi,East Hararge,Oromia,ET041098
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Mieso,West Haraghe,matched,exact,Mieso,West Hararge,Oromia,ET040901
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Doba,West Haraghe,matched,exact,Doba,West Hararge,Oromia,ET040902
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Tulo (OR),West Haraghe,matched,exact,Tulo (OR),West Hararge,Oromia,ET040903
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Shen Duggoo,West Haraghe,matched,normalized,Mesela /Shen Duggoo,West Hararge,Oromia,ET040904
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Anchar,West Haraghe,matched,exact,Anchar,West Hararge,Oromia,ET040906
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Goba Koricha,West Haraghe,matched,exact,Goba Koricha,West Hararge,Oromia,ET040907
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Habro,West Haraghe,matched,exact,Habro,West Hararge,Oromia,ET040908
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Daro Lebu,West Haraghe,matched,exact,Daro Lebu,West Hararge,Oromia,ET040909
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Boke,West Haraghe,matched,exact,Boke,West Hararge,Oromia,ET040910
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Oda Bultum,West Haraghe,matched,alias,Kuni /Oda Bultum,West Hararge,Oromia,ET040911
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Gemechis,West Haraghe,matched,exact,Gemechis,West Hararge,Oromia,ET040912
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Chiro Zuria,West Haraghe,matched,exact,Chiro Zuria,West Hararge,Oromia,ET040913
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Bedesa,West Haraghe,matched,normalized,Bedesa town,West Hararge,Oromia,ET040914
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Hawi Gudina,West Haraghe,matched,exact,Hawi Gudina,West Hararge,Oromia,ET040915
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Gumbi Bordede,West Haraghe,matched,exact,Gumbi Bordede,West Hararge,Oromia,ET040991
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Burqua Dhintu,West Haraghe,matched,exact,Burqua Dhintu,West Hararge,Oromia,ET040998
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Darimu,Ilu Aba Bora,matched,exact,Darimu,Ilu Aba Bora,Oromia,ET040301
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Alge Sachi,Ilu Aba Bora,matched,exact,Alge Sachi,Ilu Aba Bora,Oromia,ET040302
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Yayu,Ilu Aba Bora,matched,exact,Yayu,Ilu Aba Bora,Oromia,ET040309
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Metu Zuria,Ilu Aba Bora,matched,exact,Metu Zuria,Ilu Aba Bora,Oromia,ET040310
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Ale,Ilu Aba Bora,matched,exact,Ale,Ilu Aba Bora,Oromia,ET040311
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Bure (OR),Ilu Aba Bora,matched,exact,Bure (OR),Ilu Aba Bora,Oromia,ET040312
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Sale Nono,Ilu Aba Bora,matched,exact,Sale Nono,Ilu Aba Bora,Oromia,ET040313
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Becho (Ilu Aba Bora),Ilu Aba Bora,matched,exact,Becho (Ilu Aba Bora),Ilu Aba Bora,Oromia,ET040314
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Bilo Nopha,Ilu Aba Bora,matched,exact,Bilo Nopha,Ilu Aba Bora,Oromia,ET040315
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Hurumu,Ilu Aba Bora,matched,exact,Hurumu,Ilu Aba Bora,Oromia,ET040316
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Didu,Ilu Aba Bora,matched,exact,Didu,Ilu Aba Bora,Oromia,ET040317
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Huka,Ilu Aba Bora,matched,alias,Halu /Huka,Ilu Aba Bora,Oromia,ET040319
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Dorani,Ilu Aba Bora,matched,exact,Dorani,Ilu Aba Bora,Oromia,ET040324
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Limu Seka,Jimma,matched,exact,Limu Seka,Jimma,Oromia,ET040401
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Limu Kosa,Jimma,matched,exact,Limu Kosa,Jimma,Oromia,ET040402
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Sekoru,Jimma,matched,exact,Sekoru,Jimma,Oromia,ET040403
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Tiro Afeta,Jimma,matched,exact,Tiro Afeta,Jimma,Oromia,ET040404
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Kersa (Jimma),Jimma,matched,exact,Kersa (Jimma),Jimma,Oromia,ET040405
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Mena (Jimma),Jimma,matched,exact,Mena (Jimma),Jimma,Oromia,ET040406
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Goma,Jimma,matched,exact,Goma,Jimma,Oromia,ET040407
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Gera,Jimma,matched,exact,Gera,Jimma,Oromia,ET040408
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Seka Chekorsa,Jimma,matched,exact,Seka Chekorsa,Jimma,Oromia,ET040409
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Dedo,Jimma,matched,exact,Dedo,Jimma,Oromia,ET040410
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Omo Nada,Jimma,matched,exact,Omo Nada,Jimma,Oromia,ET040411
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Sigmo,Jimma,matched,exact,Sigmo,Jimma,Oromia,ET040412
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Setema,Jimma,matched,exact,Setema,Jimma,Oromia,ET040413
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Shebe Sambo,Jimma,matched,exact,Shebe Sambo,Jimma,Oromia,ET040414
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Chora,Jimma,matched,normalized,Chora (Jimma),Jimma,Oromia,ET040415
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Gumay,Jimma,matched,exact,Gumay,Jimma,Oromia,ET040416
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Mancho,Jimma,matched,exact,Mancho,Jimma,Oromia,ET040490
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Omo Beyam,Jimma,matched,exact,Omo Beyam,Jimma,Oromia,ET040491
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Botor Tolay,Jimma,matched,exact,Botor Tolay,Jimma,Oromia,ET040495
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Nono Benja,Jimma,matched,exact,Nono Benja,Jimma,Oromia,ET040499
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Wara Jarso,North Shewa (OR),matched,exact,Wara Jarso,North Shewa (OR),Oromia,ET040601
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Dera (OR),North Shewa (OR),matched,exact,Dera (OR),North Shewa (OR),Oromia,ET040602
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Hidabu Abote,North Shewa (OR),matched,exact,Hidabu Abote,North Shewa (OR),Oromia,ET040603
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Kuyu,North Shewa (OR),matched,exact,Kuyu,North Shewa (OR),Oromia,ET040604
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Degem,North Shewa (OR),matched,exact,Degem,North Shewa (OR),Oromia,ET040605
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Gerar Jarso,North Shewa (OR),matched,exact,Gerar Jarso,North Shewa (OR),Oromia,ET040606
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Debre Libanos,North Shewa (OR),matched,exact,Debre Libanos,North Shewa (OR),Oromia,ET040607
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Wuchale,North Shewa (OR),matched,exact,Wuchale,North Shewa (OR),Oromia,ET040608
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Abichugna Gne'a,North Shewa (OR),matched,exact_ambiguous_first,Abichugna Gne'a,North Shewa (OR),Oromia,ET040609
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Kimbibit,North Shewa (OR),matched,exact,Kimbibit,North Shewa (OR),Oromia,ET040610
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Yaya Gulele,North Shewa (OR),matched,exact,Yaya Gulele,North Shewa (OR),Oromia,ET040614
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Jida,North Shewa (OR),matched,exact,Jida,North Shewa (OR),Oromia,ET040615
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Aleltu,North Shewa (OR),matched,exact,Aleltu,North Shewa (OR),Oromia,ET040617
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Garba Guracha,North Shewa (OR),matched,exact,Garba Guracha,North Shewa (OR),Oromia,ET040616
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Bereh,North Shewa (OR),matched,exact,Bereh,North Shewa (OR),Oromia,ET040619
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Sululta (OR),North Shewa (OR),matched,exact,Sululta (OR),North Shewa (OR),Oromia,ET040620
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Mulo,North Shewa (OR),matched,exact,Mulo,North Shewa (OR),Oromia,ET040622
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Illu Galan,West Shewa,matched,exact,Illu Galan,West Shewa,Oromia,ET040500
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Ginde Beret,West Shewa,matched,exact,Ginde Beret,West Shewa,Oromia,ET040501
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Jeldu,West Shewa,matched,exact,Jeldu,West Shewa,Oromia,ET040502
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Ambo Zuria,West Shewa,matched,exact,Ambo Zuria,West Shewa,Oromia,ET040503
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Mida Kegn,West Shewa,matched,exact,Mida Kegn,West Shewa,Oromia,ET040504
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Cheliya,West Shewa,matched,exact,Cheliya,West Shewa,Oromia,ET040505
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Bako Tibe,West Shewa,matched,exact,Bako Tibe,West Shewa,Oromia,ET040506
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Dano,West Shewa,matched,exact,Dano,West Shewa,Oromia,ET040507
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Nono,West Shewa,matched,exact,Nono,West Shewa,Oromia,ET040508
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Tikur Enchini,West Shewa,matched,exact,Tikur Enchini,West Shewa,Oromia,ET040509
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Dendi,West Shewa,matched,exact,Dendi,West Shewa,Oromia,ET040510
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Addis Alem,West Shewa,matched,alias,Ejere /Addis Alem,West Shewa,Oromia,ET040511
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Adda Berga,West Shewa,matched,exact,Adda Berga,West Shewa,Oromia,ET040513
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Meta Robi,West Shewa,matched,exact,Meta Robi,West Shewa,Oromia,ET040514
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Abuna Ginde Beret,West Shewa,matched,exact,Abuna Ginde Beret,West Shewa,Oromia,ET040516
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Toke Kutaye,West Shewa,matched,exact,Toke Kutaye,West Shewa,Oromia,ET040517
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Jibat,West Shewa,matched,exact,Jibat,West Shewa,Oromia,ET040518
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Ifata,West Shewa,matched,exact,Ifata,West Shewa,Oromia,ET040519
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Ejersa Lafo,West Shewa,matched,exact,Ejersa Lafo,West Shewa,Oromia,ET040590
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Cobi,West Shewa,matched,exact,Cobi,West Shewa,Oromia,ET040592
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Meta Walkite,West Shewa,matched,exact,Meta Walkite,West Shewa,Oromia,ET040594
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Liban Jawi,West Shewa,matched,exact,Liban Jawi,West Shewa,Oromia,ET040597
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Welmera,West Shewa,matched,exact,Welmera,West Shewa,Oromia,ET040520
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Ameya,Southwest Shewa,matched,exact,Ameya,South West Shewa,Oromia,ET041301
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Wenchi,Southwest Shewa,matched,exact,Wenchi,South West Shewa,Oromia,ET041302
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Waliso,Southwest Shewa,matched,exact,Waliso,South West Shewa,Oromia,ET041303
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Dawo,Southwest Shewa,matched,exact,Dawo,South West Shewa,Oromia,ET041304
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Ilu,Southwest Shewa,matched,exact,Ilu,South West Shewa,Oromia,ET041305
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Kersana Malima,Southwest Shewa,matched,exact,Kersana Malima,South West Shewa,Oromia,ET041307
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Tole,Southwest Shewa,matched,exact,Tole,South West Shewa,Oromia,ET041308
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Becho (SW Shewa),Southwest Shewa,matched,exact,Becho (SW Shewa),South West Shewa,Oromia,ET041309
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Seden Sodo,Southwest Shewa,matched,exact,Seden Sodo,South West Shewa,Oromia,ET041310
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Goro (SW Shewa),Southwest Shewa,matched,exact,Goro (SW Shewa),South West Shewa,Oromia,ET041312
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Sodo Daci,Southwest Shewa,matched,exact,Sodo Daci,South West Shewa,Oromia,ET041314
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Sebeta Hawas,Southwest Shewa,matched,exact,Sebeta Hawas,South West Shewa,Oromia,ET041306
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Limu (OR),East Wellega,matched,exact,Limu (OR),East Wellega,Oromia,ET040201
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Ibantu,East Wellega,matched,exact,Ibantu,East Wellega,Oromia,ET040202
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Gida Ayana,East Wellega,matched,exact,Gida Ayana,East Wellega,Oromia,ET040203
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Haro Limu,East Wellega,matched,exact,Haro Limu,East Wellega,Oromia,ET040204
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Boneya Boshe,East Wellega,matched,exact,Boneya Boshe,East Wellega,Oromia,ET040205
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Wayu Tuka,East Wellega,matched,exact,Wayu Tuka,East Wellega,Oromia,ET040206
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Bila Seyo,East Wellega,matched,exact,Bila Seyo,East Wellega,Oromia,ET040207
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Gobu Seyo,East Wellega,matched,exact,Gobu Seyo,East Wellega,Oromia,ET040208
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Sibu Sire,East Wellega,matched,exact,Sibu Sire,East Wellega,Oromia,ET040209
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Diga,East Wellega,matched,exact,Diga,East Wellega,Oromia,ET040210
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Sasiga,East Wellega,matched,exact,Sasiga,East Wellega,Oromia,ET040211
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Leka Dulecha,East Wellega,matched,exact,Leka Dulecha,East Wellega,Oromia,ET040212
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Guto Gida,East Wellega,matched,exact,Guto Gida,East Wellega,Oromia,ET040213
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Jimma Arjo,East Wellega,matched,exact,Jimma Arjo,East Wellega,Oromia,ET040214
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Nunu Kumba,East Wellega,matched,exact,Nunu Kumba,East Wellega,Oromia,ET040215
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Wama Hagalo,East Wellega,matched,exact,Wama Hagalo,East Wellega,Oromia,ET040216
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Kiremu,East Wellega,matched,exact,Kiremu,East Wellega,Oromia,ET040217
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Horo,Horo Guduru Wellega,matched,exact,Horo,Horo Gudru Wellega,Oromia,ET041901
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Guduru,Horo Guduru Wellega,matched,exact,Guduru,Horo Gudru Wellega,Oromia,ET041903
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Ababo,Horo Guduru Wellega,matched,exact,Ababo,Horo Gudru Wellega,Oromia,ET041904
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Abay Chomen,Horo Guduru Wellega,matched,exact,Abay Chomen,Horo Gudru Wellega,Oromia,ET041905
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Jimma Genete,Horo Guduru Wellega,matched,exact,Jimma Genete,Horo Gudru Wellega,Oromia,ET041906
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Jimma Rare,Horo Guduru Wellega,matched,exact,Jimma Rare,Horo Gudru Wellega,Oromia,ET041907
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Jarte Jardega,Horo Guduru Wellega,matched,exact,Jarte Jardega,Horo Gudru Wellega,Oromia,ET041908
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Amuru,Horo Guduru Wellega,matched,exact,Amuru,Horo Gudru Wellega,Oromia,ET041909
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Abe Dongoro,Horo Guduru Wellega,matched,exact,Abe Dongoro,Horo Gudru Wellega,Oromia,ET041910
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Choman Guduru,Horo Guduru Wellega,matched,exact,Choman Guduru,Horo Gudru Wellega,Oromia,ET041911
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Horo Buluk,Horo Guduru Wellega,matched,exact,Horo Buluk,Horo Gudru Wellega,Oromia,ET041912
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Sulula Finca'a,Horo Guduru Wellega,matched,exact,Sulula Finca'a,Horo Gudru Wellega,Oromia,ET041913
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Hawa Galan,Kellem Wellega,matched,exact,Hawa Galan,Kelem Wellega,Oromia,ET041801
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Yama Logi Welel,Kellem Wellega,matched,exact,Yama Logi Welel,Kelem Wellega,Oromia,ET041802
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Dale Wabera,Kellem Wellega,matched,exact,Dale Wabera,Kelem Wellega,Oromia,ET041803
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Gawo Kebe,Kellem Wellega,matched,exact,Gawo Kebe,Kelem Wellega,Oromia,ET041804
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Sayo,Kellem Wellega,matched,exact,Sayo,Kelem Wellega,Oromia,ET041805
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Anfilo,Kellem Wellega,matched,exact,Anfilo,Kelem Wellega,Oromia,ET041807
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Dale Sadi,Kellem Wellega,matched,exact,Dale Sadi,Kelem Wellega,Oromia,ET041808
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Gidami,Kellem Wellega,matched,exact,Gidami,Kelem Wellega,Oromia,ET041809
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Jimma Horo,Kellem Wellega,matched,exact,Jimma Horo,Kelem Wellega,Oromia,ET041810
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Lalo Kile,Kellem Wellega,matched,exact,Lalo Kile,Kelem Wellega,Oromia,ET041811
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Sedi Chenka,Kellem Wellega,matched,exact,Sedi Chenka,Kelem Wellega,Oromia,ET041812
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Mana Sibu,West Wellega,matched,exact,Mana Sibu,West Wellega,Oromia,ET040101
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Nejo,West Wellega,matched,exact,Nejo,West Wellega,Oromia,ET040102
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Gimbi,West Wellega,matched,exact,Gimbi,West Wellega,Oromia,ET040103
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Lalo Asabi,West Wellega,matched,exact,Lalo Asabi,West Wellega,Oromia,ET040104
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Kiltu Kara,West Wellega,matched,exact,Kiltu Kara,West Wellega,Oromia,ET040105
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Boji Dirmeji,West Wellega,matched,exact,Boji Dirmeji,West Wellega,Oromia,ET040106
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Ayira,West Wellega,matched,exact,Ayira,West Wellega,Oromia,ET040107
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Jarso (West Wellega),West Wellega,matched,exact,Jarso (West Wellega),West Wellega,Oromia,ET040108
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Gudetu Kondole,West Wellega,matched,exact,Gudetu Kondole,West Wellega,Oromia,ET040109
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Boji Chekorsa,West Wellega,matched,exact,Boji Chekorsa,West Wellega,Oromia,ET040110
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Babo,West Wellega,matched,exact,Babo,West Wellega,Oromia,ET040111
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Yubdo,West Wellega,matched,exact,Yubdo,West Wellega,Oromia,ET040112
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Gaji,West Wellega,matched,exact,Gaji,West Wellega,Oromia,ET040113
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Haru,West Wellega,matched,exact,Haru,West Wellega,Oromia,ET040114
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Nole Kaba,West Wellega,matched,exact,Nole Kaba,West Wellega,Oromia,ET040115
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Begi,West Wellega,matched,exact,Begi,West Wellega,Oromia,ET040116
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Homa,West Wellega,matched,exact,Homa,West Wellega,Oromia,ET040117
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Sayo Nole,West Wellega,matched,exact,Sayo Nole,West Wellega,Oromia,ET040118
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Guliso,West Wellega,matched,exact,Guliso,West Wellega,Oromia,ET040119
+7,P151294,Oromia Forested Landscape Program Emission Reduction,Leta Sibu,West Wellega,matched,exact,Leta Sibu,West Wellega,Oromia,ET040197
+8,P163399,East Africa Skills for Transformation and regional integration project,Kombolcha town,South Wello,matched,exact,Kombolcha town,South Wello,Amhara,ET030417
+8,P163399,East Africa Skills for Transformation and regional integration project,Kazira,urban areas in Dire Dawa,matched,exact,Kazira,Dire Dawa urban,Dire Dawa,ET150113
+8,P163399,East Africa Skills for Transformation and regional integration project,Welmera,West Shewa,matched,exact,Welmera,West Shewa,Oromia,ET040520
+8,P163399,East Africa Skills for Transformation and regional integration project,Hawela,Northern,matched,exact,Hawela,Northern,Sidama,ET160205
+9,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Dabat,North Gondar,matched,exact,Dabat,North Gondar,Amhara,ET030105
+9,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Dabat town,North Gondar,matched,exact,Dabat town,North Gondar,Amhara,ET030106
+9,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Mao Komo special woreda,Mao Komo special woreda,matched,alias,Maokomo Special,Mao Komo Special,Benishangul Gumuz,ET060508
+9,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Bambasi,Assosa,matched,exact,Bambasi,Assosa,Benishangul Gumuz,ET060305
+9,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Homosha,Assosa,matched,exact,Homosha,Assosa,Benishangul Gumuz,ET060307
+9,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Assosa town,Assosa,matched,normalized,Assosa town Administration,Assosa,Benishangul Gumuz,ET060309
+9,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Abrahmo,Assosa,matched,exact,Abrahmo,Assosa,Benishangul Gumuz,ET060303
+9,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Bambasi town,Assosa,matched,exact,Bambasi town,Assosa,Benishangul Gumuz,ET060310
+9,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Ura,Assosa,matched,exact,Ura,Assosa,Benishangul Gumuz,ET060311
+9,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Itang special woreda,Itang special woreda,matched,normalized,Itang,Itang Special woreda,Gambela,ET120407
+9,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Gambela Zuria,Anuak,matched,exact,Gambela Zuria,Agnewak,Gambela,ET120202
+9,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Gog,Anuak,matched,exact,Gog,Agnewak,Gambela,ET120203
+9,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Dima (GM),Anuak,matched,exact,Dima (GM),Agnewak,Gambela,ET120205
+9,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Gambela town,Anuak,matched,exact,Gambela town,Agnewak,Gambela,ET120206
+9,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Lare,Nuer,matched,exact,Lare,Nuwer,Gambela,ET120102
+9,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Dolobay,Afder,matched,exact,Dolobay,Afder,Somali,ET050808
+9,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Aw-Bare,Fafan,matched,exact,Aw-Bare,Fafan,Somali,ET050205
+9,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Kebribeyah,Fafan,matched,exact,Kebribeyah,Fafan,Somali,ET050206
+9,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Kebribayah town,Fafan,matched,exact,Kebribayah town,Fafan,Somali,ET050296
+9,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Dolo Ado,Liben,matched,exact,Dolo Ado,Liban,Somali,ET050902
+9,P178047,Development Response to Displacement Impact Project in the Horn of Africa Phase II,Bokolmayo,Liben,matched,exact,Bokolmayo,Liban,Somali,ET050999
+10,P170384,Ethiopia Climate Action through Landscape Management Program for Results,Mao Komo special woreda,Mao Komo special woreda,matched,alias,Maokomo Special,Mao Komo Special,Benishangul Gumuz,ET060508
+10,P170384,Ethiopia Climate Action through Landscape Management Program for Results,Menge,Assosa,matched,exact,Menge,Assosa,Benishangul Gumuz,ET060301
+10,P170384,Ethiopia Climate Action through Landscape Management Program for Results,Bambasi,Assosa,matched,exact,Bambasi,Assosa,Benishangul Gumuz,ET060305
+10,P170384,Ethiopia Climate Action through Landscape Management Program for Results,Bilidigilu,Assosa,matched,exact,Bilidigilu,Assosa,Benishangul Gumuz,ET060306
+10,P170384,Ethiopia Climate Action through Landscape Management Program for Results,Homosha,Assosa,matched,exact,Homosha,Assosa,Benishangul Gumuz,ET060307
+10,P170384,Ethiopia Climate Action through Landscape Management Program for Results,Abrahmo,Assosa,matched,exact,Abrahmo,Assosa,Benishangul Gumuz,ET060303
+10,P170384,Ethiopia Climate Action through Landscape Management Program for Results,Ura,Assosa,matched,exact,Ura,Assosa,Benishangul Gumuz,ET060311
+10,P170384,Ethiopia Climate Action through Landscape Management Program for Results,Kamashi,Kamashi,matched,exact,Kamashi,Kamashi,Benishangul Gumuz,ET060403
+10,P170384,Ethiopia Climate Action through Landscape Management Program for Results,Dembe,Kamashi,matched,exact,Dembe,Kamashi,Benishangul Gumuz,ET060404
+10,P170384,Ethiopia Climate Action through Landscape Management Program for Results,Mizyiga,Kamashi,matched,alias,Mezniga,Kamashi,Benishangul Gumuz,ET060405
+10,P170384,Ethiopia Climate Action through Landscape Management Program for Results,Dangur,Metekel,matched,exact,Dangur,Metekel,Benishangul Gumuz,ET060201
+10,P170384,Ethiopia Climate Action through Landscape Management Program for Results,Wembera,Metekel,matched,exact,Wembera,Metekel,Benishangul Gumuz,ET060203
+10,P170384,Ethiopia Climate Action through Landscape Management Program for Results,Mandura,Metekel,matched,exact,Mandura,Metekel,Benishangul Gumuz,ET060204
+10,P170384,Ethiopia Climate Action through Landscape Management Program for Results,Dibate,Metekel,matched,exact,Dibate,Metekel,Benishangul Gumuz,ET060205
+10,P170384,Ethiopia Climate Action through Landscape Management Program for Results,Pawe,Metekel,matched,exact,Pawe,Metekel,Benishangul Gumuz,ET060206
+10,P170384,Ethiopia Climate Action through Landscape Management Program for Results,Bulen,Metekel,matched,exact,Bulen,Metekel,Benishangul Gumuz,ET060207
