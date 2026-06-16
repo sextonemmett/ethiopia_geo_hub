@@ -1,5 +1,8 @@
 .env
 .env.*
 !.env.example
+.venv/
 __pycache__/
 *.pyc
+data/worldpop/raw/
+data/worldpop/derived/

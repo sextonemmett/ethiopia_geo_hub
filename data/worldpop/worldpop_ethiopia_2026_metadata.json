@@ -1,0 +1,137 @@
+{
+  "agol_hosted_imagery_items": {
+    "pop_15_64": {
+      "item_id": "41396fd6b32c4401b86ac99c9233f652",
+      "pixel_size_x": 0.0083333333,
+      "pixel_size_y": 0.0083333333,
+      "pixel_type": "F32",
+      "type": "Image Service",
+      "url": "https://iservices.arcgis.com/iQ1dY19aHwbSDYIF/arcgis/rest/services/Ethiopia_WorldPop_Population_15_64_1km_2026_Corrected/ImageServer"
+    },
+    "pop_18_and_under": {
+      "item_id": "df9b842c6660463590dc1bdf54ed0ee6",
+      "pixel_size_x": 0.0083333333,
+      "pixel_size_y": 0.0083333333,
+      "pixel_type": "F32",
+      "type": "Image Service",
+      "url": "https://iservices.arcgis.com/iQ1dY19aHwbSDYIF/arcgis/rest/services/Ethiopia_WorldPop_Population_18_and_Under_1km_2026_Corrected/ImageServer"
+    },
+    "population_total": {
+      "item_id": "b6ab7137e5ae429a93457f4b26e26857",
+      "pixel_size_x": 0.0083333333,
+      "pixel_size_y": 0.0083333333,
+      "pixel_type": "F32",
+      "type": "Image Service",
+      "url": "https://iservices.arcgis.com/iQ1dY19aHwbSDYIF/arcgis/rest/services/Ethiopia_WorldPop_Population_Total_1km_2026_Corrected/ImageServer"
+    }
+  },
+  "agol_publish_method": {
+    "input": "local GeoTIFF uploaded to AGOL raster user store",
+    "raster_type_name": "Raster Dataset",
+    "tiles_only": false,
+    "tool": "arcgis.raster.analytics.copy_raster"
+  },
+  "agol_source_items": {
+    "pop_15_64": "0d8a9273c3d142e1901a217aa8441a41",
+    "pop_18_and_under": "b40cf8f01bf347608d726cbb2952a9b5",
+    "population_total": "b62aea6876ce49308e7d8afea26992a2"
+  },
+  "country": "ETH",
+  "derived": {
+    "pop_15_64": {
+      "method": "weighted sum of WorldPop total-sex 5-year age bands",
+      "path": "data/worldpop/derived/2026/eth_worldpop_pop_15_64_2026_CN_1km_R2025A_UA_v1.tif",
+      "weights": {
+        "15": 1.0,
+        "20": 1.0,
+        "25": 1.0,
+        "30": 1.0,
+        "35": 1.0,
+        "40": 1.0,
+        "45": 1.0,
+        "50": 1.0,
+        "55": 1.0,
+        "60": 1.0
+      }
+    },
+    "pop_18_and_under": {
+      "method": "weighted sum of WorldPop total-sex age bands; partial 5-year bands split proportionally",
+      "path": "data/worldpop/derived/2026/eth_worldpop_pop_18_and_under_2026_CN_1km_R2025A_UA_v1.tif",
+      "weights": {
+        "00": 1.0,
+        "01": 1.0,
+        "05": 1.0,
+        "10": 1.0,
+        "15": 0.8
+      }
+    }
+  },
+  "file_suffix": "CN_1km_R2025A_UA_v1",
+  "iso": "eth",
+  "products": {
+    "pop_15_64": {
+      "bounds": [
+        32.99999914800003,
+        3.4083336557,
+        47.99166575470003,
+        14.8916669431
+      ],
+      "crs": "EPSG:4326",
+      "dtype": "float32",
+      "height": 1378,
+      "nodata": -99999.0,
+      "path": "data/worldpop/derived/2026/eth_worldpop_pop_15_64_2026_CN_1km_R2025A_UA_v1.tif",
+      "width": 1799
+    },
+    "pop_18_and_under": {
+      "bounds": [
+        32.99999914800003,
+        3.4083336557,
+        47.99166575470003,
+        14.8916669431
+      ],
+      "crs": "EPSG:4326",
+      "dtype": "float32",
+      "height": 1378,
+      "nodata": -99999.0,
+      "path": "data/worldpop/derived/2026/eth_worldpop_pop_18_and_under_2026_CN_1km_R2025A_UA_v1.tif",
+      "width": 1799
+    },
+    "population_total": {
+      "bounds": [
+        32.99999914800003,
+        3.4083336557,
+        47.99166575470003,
+        14.8916669431
+      ],
+      "crs": "EPSG:4326",
+      "dtype": "float32",
+      "height": 1378,
+      "nodata": -99999.0,
+      "path": "data/worldpop/raw/2026/eth_pop_2026_CN_1km_R2025A_UA_v1.tif",
+      "width": 1799
+    }
+  },
+  "release": "R2025A",
+  "resolution": "1km",
+  "resolution_directory": "1km_ua",
+  "source_urls": {
+    "age_t_00": "https://data.worldpop.org/GIS/AgeSex_structures/Global_2015_2030/R2025A/2026/ETH/v1/1km_ua/constrained/eth_t_00_2026_CN_1km_R2025A_UA_v1.tif",
+    "age_t_01": "https://data.worldpop.org/GIS/AgeSex_structures/Global_2015_2030/R2025A/2026/ETH/v1/1km_ua/constrained/eth_t_01_2026_CN_1km_R2025A_UA_v1.tif",
+    "age_t_05": "https://data.worldpop.org/GIS/AgeSex_structures/Global_2015_2030/R2025A/2026/ETH/v1/1km_ua/constrained/eth_t_05_2026_CN_1km_R2025A_UA_v1.tif",
+    "age_t_10": "https://data.worldpop.org/GIS/AgeSex_structures/Global_2015_2030/R2025A/2026/ETH/v1/1km_ua/constrained/eth_t_10_2026_CN_1km_R2025A_UA_v1.tif",
+    "age_t_15": "https://data.worldpop.org/GIS/AgeSex_structures/Global_2015_2030/R2025A/2026/ETH/v1/1km_ua/constrained/eth_t_15_2026_CN_1km_R2025A_UA_v1.tif",
+    "age_t_20": "https://data.worldpop.org/GIS/AgeSex_structures/Global_2015_2030/R2025A/2026/ETH/v1/1km_ua/constrained/eth_t_20_2026_CN_1km_R2025A_UA_v1.tif",
+    "age_t_25": "https://data.worldpop.org/GIS/AgeSex_structures/Global_2015_2030/R2025A/2026/ETH/v1/1km_ua/constrained/eth_t_25_2026_CN_1km_R2025A_UA_v1.tif",
+    "age_t_30": "https://data.worldpop.org/GIS/AgeSex_structures/Global_2015_2030/R2025A/2026/ETH/v1/1km_ua/constrained/eth_t_30_2026_CN_1km_R2025A_UA_v1.tif",
+    "age_t_35": "https://data.worldpop.org/GIS/AgeSex_structures/Global_2015_2030/R2025A/2026/ETH/v1/1km_ua/constrained/eth_t_35_2026_CN_1km_R2025A_UA_v1.tif",
+    "age_t_40": "https://data.worldpop.org/GIS/AgeSex_structures/Global_2015_2030/R2025A/2026/ETH/v1/1km_ua/constrained/eth_t_40_2026_CN_1km_R2025A_UA_v1.tif",
+    "age_t_45": "https://data.worldpop.org/GIS/AgeSex_structures/Global_2015_2030/R2025A/2026/ETH/v1/1km_ua/constrained/eth_t_45_2026_CN_1km_R2025A_UA_v1.tif",
+    "age_t_50": "https://data.worldpop.org/GIS/AgeSex_structures/Global_2015_2030/R2025A/2026/ETH/v1/1km_ua/constrained/eth_t_50_2026_CN_1km_R2025A_UA_v1.tif",
+    "age_t_55": "https://data.worldpop.org/GIS/AgeSex_structures/Global_2015_2030/R2025A/2026/ETH/v1/1km_ua/constrained/eth_t_55_2026_CN_1km_R2025A_UA_v1.tif",
+    "age_t_60": "https://data.worldpop.org/GIS/AgeSex_structures/Global_2015_2030/R2025A/2026/ETH/v1/1km_ua/constrained/eth_t_60_2026_CN_1km_R2025A_UA_v1.tif",
+    "population_total": "https://data.worldpop.org/GIS/Population/Global_2015_2030/R2025A/2026/ETH/v1/1km_ua/constrained/eth_pop_2026_CN_1km_R2025A_UA_v1.tif"
+  },
+  "version": "v1",
+  "year": 2026
+}

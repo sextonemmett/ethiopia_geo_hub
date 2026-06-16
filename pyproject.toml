@@ -1,0 +1,13 @@
+[project]
+name = "ethiopia-geo-hub"
+version = "0.1.0"
+description = "Data preparation and ArcGIS Online publishing utilities for the Ethiopia Geo Hub."
+requires-python = ">=3.11"
+dependencies = [
+    "arcgis>=2.4.3",
+    "azure-storage-blob>=12.1,<12.18",
+    "numpy>=1.26",
+    "pyshp>=2.3.1",
+    "rasterio>=1.3.9",
+    "requests>=2.31.0",
+]

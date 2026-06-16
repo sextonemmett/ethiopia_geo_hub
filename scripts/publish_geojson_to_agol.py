@@ -9,6 +9,7 @@ Credentials are read from environment variables:
   AGOL_CLIENT_SECRET
   AGOL_USERNAME
   AGOL_PASSWORD
+  AGOL_REDIRECT_URI  optional, used by --auth browser
   AGOL_PORTAL_URL  optional, defaults to the registry portal value
 
 A local .env file is also loaded if present. Keep .env untracked.
@@ -17,12 +18,18 @@ A local .env file is also loaded if present. Keep .env untracked.
 from __future__ import annotations
 
 import argparse
+import base64
+import hashlib
+from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
 import math
 import os
 import re
+import secrets
 from pathlib import Path
 from typing import Any
+from urllib.parse import parse_qs, urlencode, urlparse
+import webbrowser
 
 import requests
 
@@ -143,6 +150,127 @@ def get_agol_client_token(client_id: str, client_secret: str) -> str:
     token = payload.get("access_token")
     if not token:
         raise RuntimeError(f"AGOL client credentials login returned no access token: {payload}")
+    return token
+
+
+def _oauth_code_challenge(verifier: str) -> str:
+    digest = hashlib.sha256(verifier.encode("ascii")).digest()
+    return base64.urlsafe_b64encode(digest).rstrip(b"=").decode("ascii")
+
+
+def _extract_oauth_code(value: str) -> str:
+    value = value.strip()
+    if not value:
+        return ""
+    if value.startswith("http://") or value.startswith("https://"):
+        parsed = urlparse(value)
+        query = parse_qs(parsed.query)
+        return (query.get("code") or [""])[0]
+    return value
+
+
+def _localhost_redirect_parts(redirect_uri: str) -> tuple[str, int] | None:
+    parsed = urlparse(redirect_uri)
+    if parsed.scheme != "http":
+        return None
+    hostname = parsed.hostname or ""
+    if hostname not in {"127.0.0.1", "localhost"}:
+        return None
+    return hostname, parsed.port or 80
+
+
+def _wait_for_local_oauth_redirect(redirect_uri: str, state: str, timeout_seconds: int = 300) -> str:
+    local_parts = _localhost_redirect_parts(redirect_uri)
+    if not local_parts:
+        return ""
+    host, port = local_parts
+
+    class OAuthCallbackHandler(BaseHTTPRequestHandler):
+        def do_GET(self) -> None:
+            parsed = urlparse(self.path)
+            query = {key: values[0] for key, values in parse_qs(parsed.query).items()}
+            self.server.oauth_query = query  # type: ignore[attr-defined]
+            if query.get("error"):
+                status = 400
+                body = "ArcGIS sign-in failed. You can close this tab and return to the terminal."
+            elif query.get("state") != state:
+                status = 400
+                body = "ArcGIS sign-in returned an invalid state. You can close this tab and return to the terminal."
+            elif query.get("code"):
+                status = 200
+                body = "ArcGIS sign-in complete. You can close this tab and return to the terminal."
+            else:
+                status = 400
+                body = "ArcGIS sign-in returned no authorization code. You can close this tab and return to the terminal."
+            self.send_response(status)
+            self.send_header("Content-Type", "text/plain; charset=utf-8")
+            self.end_headers()
+            self.wfile.write(body.encode("utf-8"))
+
+        def log_message(self, format: str, *args: Any) -> None:
+            return
+
+    server = HTTPServer((host, port), OAuthCallbackHandler)
+    server.timeout = timeout_seconds
+    try:
+        server.handle_request()
+        query = getattr(server, "oauth_query", {})
+    finally:
+        server.server_close()
+
+    if not query:
+        raise RuntimeError("Timed out waiting for the AGOL browser sign-in redirect.")
+    if query.get("error"):
+        raise RuntimeError(f"AGOL browser sign-in failed: {query.get('error_description') or query.get('error')}")
+    if query.get("state") != state:
+        raise RuntimeError("AGOL browser sign-in returned an invalid state.")
+    return query.get("code", "")
+
+
+def get_agol_browser_token(portal: str, client_id: str, redirect_uri: str) -> str:
+    verifier = secrets.token_urlsafe(64)
+    state = secrets.token_urlsafe(24)
+    authorize_params = {
+        "client_id": client_id,
+        "response_type": "code",
+        "redirect_uri": redirect_uri,
+        "code_challenge": _oauth_code_challenge(verifier),
+        "code_challenge_method": "S256",
+        "state": state,
+        "expiration": "20160",
+    }
+    authorize_url = f"{portal}/sharing/rest/oauth2/authorize?{urlencode(authorize_params)}"
+    print("Opening ArcGIS sign-in page in your browser.")
+    print(f"If the browser does not open, visit this URL:\n{authorize_url}")
+
+    local_redirect = _localhost_redirect_parts(redirect_uri)
+    if local_redirect:
+        webbrowser.open(authorize_url)
+        code = _wait_for_local_oauth_redirect(redirect_uri, state)
+    else:
+        webbrowser.open(authorize_url)
+        print("After sign-in, paste the full redirected URL or just the authorization code.")
+        code = _extract_oauth_code(input("Authorization code: "))
+
+    if not code:
+        raise RuntimeError("AGOL browser sign-in did not return an authorization code.")
+
+    payload = agol_request(
+        "POST",
+        f"{portal}/sharing/rest/oauth2/token",
+        context="AGOL browser sign-in token exchange failed",
+        data={
+            "client_id": client_id,
+            "grant_type": "authorization_code",
+            "code": code,
+            "redirect_uri": redirect_uri,
+            "code_verifier": verifier,
+            "f": "json",
+        },
+    )
+    token = payload.get("access_token")
+    if not token:
+        raise RuntimeError(f"AGOL browser sign-in returned no access token: {payload}")
     return token
 
 
@@ -588,20 +716,32 @@ def prepare_geojson_features(features: list[dict[str, Any]]) -> tuple[str, list[
 
 
 def add_layer_to_service(service_url: str, token: str, layer_name: str, geometry_type: str, fields: list[dict[str, Any]]) -> None:
+    admin_url = admin_service_url(service_url)
+    layer_fields = [
+        {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "nullable": False,
+            "editable": False,
+        },
+        *fields,
+    ]
     layer_def = {
         "layers": [
             {
                 "name": layer_name,
                 "type": "Feature Layer",
                 "geometryType": geometry_type,
-                "fields": fields,
+                "objectIdField": "OBJECTID",
+                "fields": layer_fields,
                 "capabilities": "Query,Editing,Create,Update,Delete,Extract",
             }
         ]
     }
     result = agol_request(
         "POST",
-        f"{service_url}/addToDefinition",
+        f"{admin_url}/addToDefinition",
         context=f"addToDefinition failed for {service_url}",
         token=token,
         data={"f": "json", "addToDefinition": json.dumps(layer_def)},
@@ -746,6 +886,12 @@ def main() -> None:
     parser.add_argument("--publish", action="store_true", help="Actually write to ArcGIS Online. Default is dry-run.")
     parser.add_argument("--list-groups", action="store_true", help="List groups available to the AGOL user and exit.")
     parser.add_argument("--token-expiration", type=int, default=120)
+    parser.add_argument(
+        "--auth",
+        choices=["auto", "browser", "client", "password"],
+        default=os.getenv("AGOL_AUTH_MODE", "auto"),
+        help="Authentication mode. auto prefers client credentials, then username/password. browser opens a user sign-in prompt.",
+    )
     args = parser.parse_args()
 
     registry = load_registry(args.registry)
@@ -763,10 +909,33 @@ def main() -> None:
     client_secret = os.getenv("AGOL_CLIENT_SECRET", "")
     username = os.getenv("AGOL_USERNAME", "")
     password = os.getenv("AGOL_PASSWORD", "")
+    redirect_uri = os.getenv("AGOL_REDIRECT_URI", "http://127.0.0.1:8765/callback")
     has_client_credentials = configured_secret(client_id) and configured_secret(client_secret)
     has_user_credentials = configured_secret(username) and configured_secret(password)
-    if args.publish or args.list_groups or has_client_credentials or has_user_credentials:
-        if has_client_credentials:
+    has_browser_credentials = configured_secret(client_id)
+    if args.publish or args.list_groups or has_client_credentials or has_user_credentials or args.auth == "browser":
+        if args.auth == "browser":
+            if not has_browser_credentials:
+                raise RuntimeError("Set AGOL_CLIENT_ID before using --auth browser.")
+            token = get_agol_browser_token(portal, client_id, redirect_uri)
+            identity = validate_agol_user(portal, token)
+            username = identity["username"]
+            print(f"AGOL browser user validated: {username} ({identity.get('role')})")
+        elif args.auth == "client":
+            if not has_client_credentials:
+                raise RuntimeError("Set AGOL_CLIENT_ID and AGOL_CLIENT_SECRET before using --auth client.")
+            token = get_agol_client_token(client_id, client_secret)
+            identity = validate_agol_token_owner(portal, token)
+            username = identity["username"]
+            print(f"AGOL OAuth app token validated: {username} ({identity.get('role')})")
+        elif args.auth == "password":
+            if not has_user_credentials:
+                raise RuntimeError("Set AGOL_USERNAME and AGOL_PASSWORD before using --auth password.")
+            token = get_agol_user_token(portal, username, password, args.token_expiration)
+            identity = validate_agol_user(portal, token)
+            username = identity["username"]
+            print(f"AGOL user validated: {username} ({identity.get('role')})")
+        elif has_client_credentials:
             token = get_agol_client_token(client_id, client_secret)
             identity = validate_agol_token_owner(portal, token)
             username = identity["username"]
@@ -778,7 +947,8 @@ def main() -> None:
             print(f"AGOL user validated: {username} ({identity.get('role')})")
         else:
             raise RuntimeError(
-                "Set AGOL_CLIENT_ID and AGOL_CLIENT_SECRET, or AGOL_USERNAME and AGOL_PASSWORD, "
+                "Set AGOL_CLIENT_ID and AGOL_CLIENT_SECRET, AGOL_USERNAME and AGOL_PASSWORD, "
+                "or use --auth browser with AGOL_CLIENT_ID, "
                 "before using --publish or --list-groups."
             )
     elif not args.publish:

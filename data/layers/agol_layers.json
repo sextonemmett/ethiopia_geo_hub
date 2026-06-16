@@ -13,7 +13,7 @@
       "title": "Ethiopia PIU Project Locations - ADM3",
       "layer_name": "piu_project_locations_adm3",
       "path": "data/processed/piu_project_locations_adm3.geojson",
-      "item_id": "",
+      "item_id": "63b152b2f82d46e2b7a71c442ea30576",
       "snippet": "World Bank-supported Ethiopia PIU project locations joined to FCV-modified ADM3 woreda polygons.",
       "description": "Project-location polygons derived from the PIU survey export and matched to Woredas_FCVModified/Eth_Admin3_v2.shp. One feature represents one project in one ADM3 area. Rebuild the GeoJSON with scripts/build_piu_adm3_locations.py before publishing.",
       "share": {
@@ -27,6 +27,86 @@
         "projects",
         "adm3",
         "woreda"
+      ]
+    },
+    "kobo_project_woreda_points": {
+      "title": "Ethiopia Kobo Project Woreda Centroids",
+      "layer_name": "kobo_project_woreda_points",
+      "path": "data/projects/kobo_project_woreda_points_agol.geojson",
+      "item_id": "01d9523b0339416f9502deac5c44a603",
+      "snippet": "Kobo project submissions matched to FCV-modified ADM3 woredas and represented as woreda centroid points.",
+      "description": "Deduplicated project-woreda centroid point layer derived from KoboToolbox submissions. One feature represents one project in one matched ADM3 woreda. Repeated submissions for the same project and woreda are aggregated into selection_count and submission_count attributes. Use project_label or project_code for ArcGIS Online symbology.",
+      "share": {
+        "org": false,
+        "everyone": false,
+        "group_ids": []
+      },
+      "tags": [
+        "kobo",
+        "portfolio",
+        "projects",
+        "adm3",
+        "woreda",
+        "centroid",
+        "project symbology"
+      ]
+    },
+    "ethiopia_admin1_boundaries": {
+      "title": "Ethiopia Admin 1 Boundaries",
+      "layer_name": "ethiopia_admin1_boundaries",
+      "path": "data/admin_boundaries/boundaries_1.geojson",
+      "item_id": "13015c088f1445af8aff121f0d2a6fe2",
+      "snippet": "Ethiopia administrative level 1 boundary polygons.",
+      "description": "Administrative level 1 boundary polygons from data/admin_boundaries/boundaries_1.geojson.",
+      "share": {
+        "org": false,
+        "everyone": false,
+        "group_ids": []
+      },
+      "tags": [
+        "ethiopia",
+        "admin boundaries",
+        "adm1",
+        "regions"
+      ]
+    },
+    "ethiopia_admin2_boundaries": {
+      "title": "Ethiopia Admin 2 Boundaries",
+      "layer_name": "ethiopia_admin2_boundaries",
+      "path": "data/admin_boundaries/boundaries_2.geojson",
+      "item_id": "c889f38f32eb4352a250c1815500bdac",
+      "snippet": "Ethiopia administrative level 2 boundary polygons.",
+      "description": "Administrative level 2 boundary polygons from data/admin_boundaries/boundaries_2.geojson.",
+      "share": {
+        "org": false,
+        "everyone": false,
+        "group_ids": []
+      },
+      "tags": [
+        "ethiopia",
+        "admin boundaries",
+        "adm2",
+        "zones"
+      ]
+    },
+    "ethiopia_fcv_admin3_boundaries": {
+      "title": "Ethiopia FCV-Modified Admin 3 Boundaries",
+      "layer_name": "ethiopia_fcv_admin3_boundaries",
+      "path": "data/admin_boundaries/woredas_fcvmodified_adm3.geojson",
+      "item_id": "13262cf502774c7ba47e0c57e62c4c62",
+      "snippet": "Ethiopia FCV-modified administrative level 3 woreda boundary polygons.",
+      "description": "Administrative level 3 woreda boundary polygons generated from data/admin_boundaries/Woredas_FCVModified/Eth_Admin3_v2.shp. Blank placeholder records from the shapefile are excluded.",
+      "share": {
+        "org": false,
+        "everyone": false,
+        "group_ids": []
+      },
+      "tags": [
+        "ethiopia",
+        "admin boundaries",
+        "adm3",
+        "woreda",
+        "fcv modified"
       ]
     }
   }
