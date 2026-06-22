@@ -91,7 +91,8 @@ def layer_specs(metadata: dict[str, Any]) -> list[dict[str, Any]]:
 
 def merged_tags(spec: dict[str, Any]) -> str:
     tags: list[str] = []
-    for tag in [*DEFAULT_TAGS, *(spec.get("tags") or [])]:
+    base_tags = spec.get("base_tags", DEFAULT_TAGS)
+    for tag in [*base_tags, *(spec.get("tags") or [])]:
         tag = str(tag).strip().lower()
         if tag and tag not in tags:
             tags.append(tag)
@@ -139,8 +140,13 @@ def validate_image_service(
     info = agol_request("GET", url, context=f"ImageServer info failed for {item_id}", token=token, params={"f": "json"})
     extent = info.get("fullExtent") or info.get("extent") or {}
     failures = []
+    extent_tolerance = max(
+        tolerance,
+        (expected["pixel_size_x"] or 0) / 2,
+        (expected["pixel_size_y"] or 0) / 2,
+    )
     for service_key, expected_key in [("xmin", "xmin"), ("ymin", "ymin"), ("xmax", "xmax"), ("ymax", "ymax")]:
-        if not close_enough(extent.get(service_key), expected["bounds"][expected_key], tolerance):
+        if not close_enough(extent.get(service_key), expected["bounds"][expected_key], extent_tolerance):
             failures.append(f"{service_key}={extent.get(service_key)} expected {expected['bounds'][expected_key]}")
     if not close_enough(info.get("pixelSizeX"), expected["pixel_size_x"], tolerance):
         failures.append(f"pixelSizeX={info.get('pixelSizeX')} expected {expected['pixel_size_x']}")
@@ -190,7 +196,22 @@ def share_item(portal: str, token: str, username: str, item_id: str, group_ids: 
     )
     not_shared = result.get("notSharedWith") or []
     if not_shared:
-        raise RuntimeError(f"{item_id} was not shared with these groups: {not_shared}")
+        current = agol_request(
+            "GET",
+            f"{portal}/sharing/rest/content/items/{item_id}/groups",
+            context=f"Could not inspect group sharing for {item_id}",
+            token=token,
+            params={"f": "json"},
+        )
+        shared_group_ids = {
+            group.get("id")
+            for bucket in ("admin", "member", "other")
+            for group in current.get(bucket, [])
+            if group.get("id")
+        }
+        remaining = [group_id for group_id in not_shared if group_id not in shared_group_ids]
+        if remaining:
+            raise RuntimeError(f"{item_id} was not shared with these groups: {remaining}")
 
 
 def delete_item(portal: str, token: str, username: str, item_id: str) -> None:

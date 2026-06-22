@@ -6,3 +6,7 @@ __pycache__/
 *.pyc
 data/worldpop/raw/
 data/worldpop/derived/
+data/nighttime_lights/raw/
+data/nighttime_lights/products/
+data/floods/products/
+data/

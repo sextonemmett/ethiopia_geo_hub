@@ -965,6 +965,7 @@ def main() -> None:
 
     for key in selected_layer_keys(registry, args.layer):
         layer = registry["layers"][key]
+        layer_batch_size = int(layer.get("batch_size") or batch_size)
         path = Path(layer["path"])
         if not path.is_absolute():
             path = root / path
@@ -1007,7 +1008,7 @@ def main() -> None:
             geometry_type,
             fields,
             esri_features,
-            batch_size,
+            layer_batch_size,
             max_record_count,
         )
         print(f"  published:     item_id={item_id}, features={added:,}")

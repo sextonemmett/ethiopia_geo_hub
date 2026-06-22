@@ -1,0 +1,74 @@
+{
+  "created_at_utc": "2026-06-21T13:28:27+00:00",
+  "crs": "+proj=aea +lat_1=5 +lat_2=13 +lat_0=0 +lon_0=39 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  "formula": "friction_min_per_m = 60 / (speed_kmh * 1000)",
+  "grid": {
+    "bounds": [
+      -49500,
+      971000,
+      11000,
+      1021500
+    ],
+    "height": 101,
+    "width": 121
+  },
+  "landcover_speeds_kmh": {
+    "1": 0.0,
+    "2": 2.5,
+    "4": 1.5,
+    "5": 4.0,
+    "7": 5.0,
+    "8": 4.0,
+    "9": 0.0,
+    "10": 4.5,
+    "11": 4.5
+  },
+  "least_cost_road_speeds_kmh": {
+    "bridleway": 5.0,
+    "cycleway": 5.0,
+    "footway": 5.0,
+    "living_street": 30.0,
+    "motorway": 90.0,
+    "path": 5.0,
+    "pedestrian": 5.0,
+    "primary": 70.0,
+    "residential": 30.0,
+    "secondary": 60.0,
+    "service": 20.0,
+    "steps": 3.0,
+    "tertiary": 50.0,
+    "track": 15.0,
+    "trunk": 80.0,
+    "unclassified": 30.0
+  },
+  "outputs": {
+    "least_cost": "outputs/market_accessibility_smoke/friction/ethiopia_least_cost_friction_smoke_500m.tif",
+    "walking": "outputs/market_accessibility_smoke/friction/ethiopia_walk_friction_smoke_500m.tif"
+  },
+  "resolution_m": 500,
+  "slope_adjustment": "Tobler-style factor: clamp((6*exp(-3.5*abs(slope+0.05))) / 5, 0.1, 1.0)",
+  "sources": {
+    "elevation": "data/elevation/Elevation/DEM_definedcoordvrt1.tif",
+    "landcover_dir": "data/landcover_2025",
+    "roads_dir": "data/ovt_roads"
+  },
+  "units": "minutes per meter",
+  "walking_road_speeds_kmh": {
+    "bridleway": 5.0,
+    "cycleway": 5.0,
+    "footway": 5.0,
+    "living_street": 5.0,
+    "motorway": 5.0,
+    "path": 5.0,
+    "pedestrian": 5.0,
+    "primary": 5.0,
+    "residential": 5.0,
+    "secondary": 5.0,
+    "service": 5.0,
+    "steps": 3.0,
+    "tertiary": 5.0,
+    "track": 5.0,
+    "trunk": 5.0,
+    "unclassified": 5.0
+  }
+}

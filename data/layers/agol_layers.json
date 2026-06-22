@@ -108,6 +108,230 @@
         "woreda",
         "fcv modified"
       ]
+    },
+    "ethiopia_drought_summary_2020_2025": {
+      "title": "Ethiopia Drought Conditions Summary 2020-2025",
+      "layer_name": "ethiopia_drought_summary_2020_2025",
+      "path": "data/hazards/drought/ethiopia_drought_summary_2020_2025.geojson",
+      "item_id": "aa87ac92bbeb476cb08073e8ffa57896",
+      "snippet": "Summary grid of Global Drought Observatory RDRI drought classes for Ethiopia, 2020-2025.",
+      "description": "One feature per Ethiopia 1-degree drought grid cell, summarized from 216 decadal Global Drought Observatory RDRI rasters for 2020-2025. Source rasters were clipped in place to the Ethiopia admin-1 boundary dissolved from data/admin_boundaries/boundaries_1.geojson. Key fields include max_class, latest_class, modal_class, drought_periods, moderate_periods, severe_periods, first_drought, last_drought, trend, and annual maximum and persistence counts. Source copyright: European Union, 1995-2026. Licensed under Creative Commons Attribution 4.0 International.",
+      "license_info": "Creative Commons Attribution 4.0 International (CC BY 4.0). Source: European Union / European Commission Global Drought Observatory.",
+      "share": {
+        "org": false,
+        "everyone": false,
+        "group_ids": [
+          "31731315dc3a4f92adebf919c4651345"
+        ]
+      },
+      "tags": [
+        "ethiopia",
+        "drought",
+        "hazard",
+        "global drought observatory",
+        "rdri",
+        "summary",
+        "2020-2025",
+        "grid"
+      ]
+    },
+    "ethiopia_humanitarian_access_adm3": {
+      "title": "Ethiopia Humanitarian Access - ADM3",
+      "layer_name": "ethiopia_humanitarian_access_adm3",
+      "path": "data/humanitarian_access/ethiopia_humanitarian_access_adm3.geojson",
+      "item_id": "a79f597f104f4991ac71933a3002e3e2",
+      "snippet": "Latest OCHA Ethiopia humanitarian access status joined to FCV-modified ADM3 woreda boundaries.",
+      "description": "ADM3 polygon layer built from the latest XLSX resource in the HDX Ethiopia - Humanitarian Access dataset and joined to data/admin_boundaries/woredas_fcvmodified_adm3.geojson on ADM3 p-code. Rebuild with scripts/downloads/download_humanitarian_access.py before publishing. Current source edition: April 2026, resource ETH_National Access Map Data_ April 2026.xlsx, modified 2026-05-06.",
+      "license_info": "Creative Commons Attribution 4.0 International (CC BY 4.0). Source: OCHA Ethiopia / HDX Ethiopia - Humanitarian Access.",
+      "share": {
+        "org": false,
+        "everyone": false,
+        "group_ids": [
+          "31731315dc3a4f92adebf919c4651345"
+        ]
+      },
+      "tags": [
+        "ethiopia",
+        "humanitarian access",
+        "ocha",
+        "hdx",
+        "adm3",
+        "woreda",
+        "accessibility"
+      ]
+    },
+    "ethiopia_mfr_health_facilities": {
+      "title": "Ethiopia MFR Health Facilities",
+      "layer_name": "ethiopia_mfr_health_facilities",
+      "path": "data/health_facilities/mfr_health_facilities_coordinates.geojson",
+      "item_id": "5991fb440ecd42de9211b8062420651c",
+      "batch_size": 1000,
+      "snippet": "Ethiopia Ministry of Health Master Facility Registry health facility coordinates joined to FCV-modified ADM3 boundaries.",
+      "description": "Point layer built from the public Ethiopia Ministry of Health Master Facility Registry XLSX export at https://mfrv2.moh.gov.et/#/facility/all. Facility geometry uses the source Longitude and Latitude fields. Admin attributes are assigned by spatially joining coordinates to data/admin_boundaries/woredas_fcvmodified_adm3.geojson. Rebuild with scripts/downloads/download_mfr_health_facilities.py before publishing.",
+      "license_info": "Source: Ethiopia Ministry of Health Master Facility Registry.",
+      "share": {
+        "org": false,
+        "everyone": false,
+        "group_ids": [
+          "31731315dc3a4f92adebf919c4651345"
+        ]
+      },
+      "tags": [
+        "ethiopia",
+        "health facilities",
+        "mfr",
+        "ministry of health",
+        "coordinates",
+        "adm3",
+        "woreda"
+      ]
+    },
+    "ethiopia_market_centers": {
+      "title": "Ethiopia Market Centers",
+      "layer_name": "ethiopia_market_centers",
+      "path": "data/market_centers/ethiopia_market_centers.geojson",
+      "item_id": "4d320675d8f546159111c557ce4c7fc2",
+      "batch_size": 1000,
+      "snippet": "Ethiopia market center point locations from HDX.",
+      "description": "Point layer built from the current CSV resource in the HDX Ethiopia - Market Centers dataset. Coordinates use the source x/y fields. Source administrative fields from HDX are retained; no local admin boundary join is applied. Rebuild with scripts/downloads/download_market_centers.py before publishing.",
+      "license_info": "Public Domain / No restrictions (CC0). Source: HDX Ethiopia - Market Centers.",
+      "share": {
+        "org": false,
+        "everyone": false,
+        "group_ids": [
+          "31731315dc3a4f92adebf919c4651345"
+        ]
+      },
+      "tags": [
+        "ethiopia",
+        "market centers",
+        "hdx",
+        "markets",
+        "coordinates",
+        "adm3",
+        "woreda"
+      ]
+    },
+    "ethiopia_basins": {
+      "title": "Ethiopia River Basins",
+      "layer_name": "ethiopia_basins",
+      "path": "data/basins/basins.geojson",
+      "item_id": "7e020688cf1e41cb8cef02d2eba3ea0c",
+      "snippet": "Ethiopia river basin boundary polygons.",
+      "description": "River basin boundary polygons from data/basins/basins.geojson. One feature represents one basin.",
+      "share": {
+        "org": false,
+        "everyone": false,
+        "group_ids": [
+          "31731315dc3a4f92adebf919c4651345"
+        ]
+      },
+      "tags": [
+        "ethiopia",
+        "basins",
+        "river basins",
+        "hydrology",
+        "boundaries"
+      ]
+    },
+    "ethiopia_subbasins": {
+      "title": "Ethiopia River Subbasins",
+      "layer_name": "ethiopia_subbasins",
+      "path": "data/basins/subbasins.geojson",
+      "item_id": "aab2858a1c394044b55a6db8d2d96908",
+      "snippet": "Ethiopia river subbasin boundary polygons.",
+      "description": "River subbasin boundary polygons from data/basins/subbasins.geojson. One feature represents one subbasin and includes parent basin attributes where available.",
+      "share": {
+        "org": false,
+        "everyone": false,
+        "group_ids": [
+          "31731315dc3a4f92adebf919c4651345"
+        ]
+      },
+      "tags": [
+        "ethiopia",
+        "subbasins",
+        "river basins",
+        "hydrology",
+        "boundaries"
+      ]
+    },
+    "ethiopia_agro_climate_regions": {
+      "title": "Ethiopia Agro-Climate Regions",
+      "layer_name": "ethiopia_agro_climate_regions",
+      "path": "data/basins/agro_climate_regions_agol.geojson",
+      "item_id": "7baaed1771e9476cb2570bb00dd6363e",
+      "batch_size": 1,
+      "snippet": "Ethiopia agro-climate region polygons.",
+      "description": "Agro-climate region polygons derived from data/basins/agro_climate_regions.geojson and simplified to data/basins/agro_climate_regions_agol.geojson for ArcGIS Online publishing. One feature represents one agro-climate class.",
+      "share": {
+        "org": false,
+        "everyone": false,
+        "group_ids": [
+          "31731315dc3a4f92adebf919c4651345"
+        ]
+      },
+      "tags": [
+        "ethiopia",
+        "agro climate",
+        "climate regions",
+        "basins",
+        "boundaries"
+      ]
+    },
+    "ethiopia_ookla_speedtest_fixed_2026_q1": {
+      "title": "Ethiopia Ookla Speedtest Fixed Tiles 2026 Q1",
+      "layer_name": "ethiopia_ookla_speedtest_fixed_2026_q1",
+      "path": "data/connectivity/ookla/ethiopia_ookla_speedtest_fixed_2026_q1.geojson",
+      "item_id": "31e5b5675c894473abf8ed76776e6fa3",
+      "batch_size": 1000,
+      "snippet": "Ethiopia-clipped fixed broadband Speedtest by Ookla performance tiles for Q1 2026.",
+      "description": "Polygon layer built from Speedtest by Ookla Global Fixed and Mobile Network Performance Maps. Source fixed broadband tiles were downloaded from the public AWS Open Data bucket and clipped in place to the dissolved Ethiopia admin-1 boundary from data/admin_boundaries/boundaries_1.geojson. Metrics are quarterly averages for Q1 2026 at zoom level 16 web mercator tile resolution, represented in EPSG:4326.",
+      "license_info": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). Source: Speedtest by Ookla Global Fixed and Mobile Network Performance Maps.",
+      "share": {
+        "org": false,
+        "everyone": false,
+        "group_ids": [
+          "31731315dc3a4f92adebf919c4651345"
+        ]
+      },
+      "tags": [
+        "ethiopia",
+        "ookla",
+        "speedtest",
+        "fixed broadband",
+        "connectivity",
+        "internet performance",
+        "q1 2026",
+        "tiles"
+      ]
+    },
+    "ethiopia_ookla_speedtest_mobile_2026_q1": {
+      "title": "Ethiopia Ookla Speedtest Mobile Tiles 2026 Q1",
+      "layer_name": "ethiopia_ookla_speedtest_mobile_2026_q1",
+      "path": "data/connectivity/ookla/ethiopia_ookla_speedtest_mobile_2026_q1.geojson",
+      "item_id": "383915d4200d4d66b7fc6ac42936f035",
+      "batch_size": 1000,
+      "snippet": "Ethiopia-clipped mobile cellular Speedtest by Ookla performance tiles for Q1 2026.",
+      "description": "Polygon layer built from Speedtest by Ookla Global Fixed and Mobile Network Performance Maps. Source mobile cellular tiles were downloaded from the public AWS Open Data bucket and clipped in place to the dissolved Ethiopia admin-1 boundary from data/admin_boundaries/boundaries_1.geojson. Metrics are quarterly averages for Q1 2026 at zoom level 16 web mercator tile resolution, represented in EPSG:4326.",
+      "license_info": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). Source: Speedtest by Ookla Global Fixed and Mobile Network Performance Maps.",
+      "share": {
+        "org": false,
+        "everyone": false,
+        "group_ids": [
+          "31731315dc3a4f92adebf919c4651345"
+        ]
+      },
+      "tags": [
+        "ethiopia",
+        "ookla",
+        "speedtest",
+        "mobile cellular",
+        "connectivity",
+        "internet performance",
+        "q1 2026",
+        "tiles"
+      ]
     }
   }
 }

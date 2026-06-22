@@ -1,0 +1,178 @@
+{
+  "created_at_utc": "2026-06-21T13:28:27+00:00",
+  "crs": "+proj=aea +lat_1=5 +lat_2=13 +lat_0=0 +lon_0=39 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  "friction": {
+    "created_at_utc": "2026-06-21T13:28:27+00:00",
+    "crs": "+proj=aea +lat_1=5 +lat_2=13 +lat_0=0 +lon_0=39 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+    "formula": "friction_min_per_m = 60 / (speed_kmh * 1000)",
+    "grid": {
+      "bounds": [
+        -49500,
+        971000,
+        11000,
+        1021500
+      ],
+      "height": 101,
+      "width": 121
+    },
+    "landcover_speeds_kmh": {
+      "1": 0.0,
+      "2": 2.5,
+      "4": 1.5,
+      "5": 4.0,
+      "7": 5.0,
+      "8": 4.0,
+      "9": 0.0,
+      "10": 4.5,
+      "11": 4.5
+    },
+    "least_cost_road_speeds_kmh": {
+      "bridleway": 5.0,
+      "cycleway": 5.0,
+      "footway": 5.0,
+      "living_street": 30.0,
+      "motorway": 90.0,
+      "path": 5.0,
+      "pedestrian": 5.0,
+      "primary": 70.0,
+      "residential": 30.0,
+      "secondary": 60.0,
+      "service": 20.0,
+      "steps": 3.0,
+      "tertiary": 50.0,
+      "track": 15.0,
+      "trunk": 80.0,
+      "unclassified": 30.0
+    },
+    "outputs": {
+      "least_cost": "outputs/market_accessibility_smoke/friction/ethiopia_least_cost_friction_smoke_500m.tif",
+      "walking": "outputs/market_accessibility_smoke/friction/ethiopia_walk_friction_smoke_500m.tif"
+    },
+    "resolution_m": 500,
+    "slope_adjustment": "Tobler-style factor: clamp((6*exp(-3.5*abs(slope+0.05))) / 5, 0.1, 1.0)",
+    "sources": {
+      "elevation": "data/elevation/Elevation/DEM_definedcoordvrt1.tif",
+      "landcover_dir": "data/landcover_2025",
+      "roads_dir": "data/ovt_roads"
+    },
+    "units": "minutes per meter",
+    "walking_road_speeds_kmh": {
+      "bridleway": 5.0,
+      "cycleway": 5.0,
+      "footway": 5.0,
+      "living_street": 5.0,
+      "motorway": 5.0,
+      "path": 5.0,
+      "pedestrian": 5.0,
+      "primary": 5.0,
+      "residential": 5.0,
+      "secondary": 5.0,
+      "service": 5.0,
+      "steps": 3.0,
+      "tertiary": 5.0,
+      "track": 5.0,
+      "trunk": 5.0,
+      "unclassified": 5.0
+    }
+  },
+  "grid": {
+    "bounds": [
+      -49500,
+      971000,
+      11000,
+      1021500
+    ],
+    "height": 101,
+    "mask_cells": 12221,
+    "width": 121
+  },
+  "inputs": {
+    "admin3": "data/admin_boundaries/boundaries_3.geojson",
+    "markets": "data/market_centers/ethiopia_market_centers.geojson",
+    "worldpop": "data/worldpop/raw/2026/eth_pop_2026_CN_1km_R2025A_UA_v1.tif"
+  },
+  "isochrone_bands": [
+    {
+      "label": "0-15",
+      "max_minutes": 15,
+      "min_minutes": 0
+    },
+    {
+      "label": "15-30",
+      "max_minutes": 30,
+      "min_minutes": 15
+    },
+    {
+      "label": "30-45",
+      "max_minutes": 45,
+      "min_minutes": 30
+    },
+    {
+      "label": "45-60",
+      "max_minutes": 60,
+      "min_minutes": 45
+    },
+    {
+      "label": "60-90",
+      "max_minutes": 90,
+      "min_minutes": 60
+    },
+    {
+      "label": "90-120",
+      "max_minutes": 120,
+      "min_minutes": 90
+    },
+    {
+      "label": "120-150",
+      "max_minutes": 150,
+      "min_minutes": 120
+    },
+    {
+      "label": "150-180",
+      "max_minutes": 180,
+      "min_minutes": 150
+    },
+    {
+      "label": "180+",
+      "max_minutes": null,
+      "min_minutes": 180
+    }
+  ],
+  "outputs": {
+    "least_cost": {
+      "accessibility": "outputs/market_accessibility_smoke/ethiopia_market_accessibility_least_cost_smoke_500m.tif",
+      "allocated_markets": "outputs/market_accessibility_smoke/ethiopia_market_centers_allocated_population_least_cost_smoke_500m.geojson",
+      "allocated_population_total": 6024842.787555987,
+      "allocation_groups": "outputs/market_accessibility_smoke/ethiopia_market_allocation_groups_least_cost_smoke_500m.tif",
+      "grid_population_total": 6025242.0,
+      "isochrone_feature_count": 6,
+      "isochrones": "outputs/market_accessibility_smoke/ethiopia_market_isochrones_least_cost_smoke_500m.geojson",
+      "market_count": 2060,
+      "source_cell_count": 104
+    },
+    "walk": {
+      "accessibility": "outputs/market_accessibility_smoke/ethiopia_market_accessibility_walk_smoke_500m.tif",
+      "allocated_markets": "outputs/market_accessibility_smoke/ethiopia_market_centers_allocated_population_walk_smoke_500m.geojson",
+      "allocated_population_total": 6024842.787555988,
+      "allocation_groups": "outputs/market_accessibility_smoke/ethiopia_market_allocation_groups_walk_smoke_500m.tif",
+      "grid_population_total": 6025242.0,
+      "isochrone_feature_count": 9,
+      "isochrones": "outputs/market_accessibility_smoke/ethiopia_market_isochrones_walk_smoke_500m.geojson",
+      "market_count": 2060,
+      "source_cell_count": 104
+    }
+  },
+  "resolution_m": 500,
+  "validation": {
+    "least_cost": {
+      "finite_accessibility_cells": 12206,
+      "max_checked_source_cell_minutes": 0.0,
+      "source_cells_checked": 100
+    },
+    "walk": {
+      "finite_accessibility_cells": 12206,
+      "max_checked_source_cell_minutes": 0.0,
+      "source_cells_checked": 100
+    }
+  }
+}
