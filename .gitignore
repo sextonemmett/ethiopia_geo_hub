@@ -9,4 +9,7 @@ data/worldpop/derived/
 data/nighttime_lights/raw/
 data/nighttime_lights/products/
 data/floods/products/
-data/
+data/*
+!data/data_explorer_thumbnail/
+data/data_explorer_thumbnail/*
+!data/data_explorer_thumbnail/population.png
