@@ -1,0 +1,619 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ethiopia Market Accessibility Power Slides</title>
+  <style>
+    @font-face {
+      font-family: "Aptos Deck";
+      src: url("file:///Applications/Microsoft%20Outlook.app/Contents/Resources/DFonts/Aptos.ttf") format("truetype");
+      font-weight: 400 599;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: "Aptos Deck";
+      src: url("file:///Applications/Microsoft%20Outlook.app/Contents/Resources/DFonts/Aptos-SemiBold.ttf") format("truetype");
+      font-weight: 600 699;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: "Aptos Deck";
+      src: url("file:///Applications/Microsoft%20Outlook.app/Contents/Resources/DFonts/Aptos-Bold.ttf") format("truetype");
+      font-weight: 700 799;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: "Aptos Deck";
+      src: url("file:///Applications/Microsoft%20Outlook.app/Contents/Resources/DFonts/Aptos-ExtraBold.ttf") format("truetype");
+      font-weight: 800 900;
+      font-style: normal;
+    }
+
+    :root {
+      --paper: #f7f4ec;
+      --ink: #16222a;
+      --muted: #65737b;
+      --line: #d8d0bf;
+      --teal: #127c7a;
+      --coral: #e36d49;
+      --gold: #d9a32e;
+      --panel: #fffdf8;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #ffffff;
+      color: var(--ink);
+      font-family: "Aptos Deck", Aptos, "Aptos Display", "Segoe UI", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    .deck {
+      display: grid;
+      gap: 28px;
+      justify-items: center;
+      padding: 28px;
+    }
+
+    .slide {
+      width: min(1600px, calc(100vw - 56px));
+      aspect-ratio: 16 / 9;
+      position: relative;
+      overflow: hidden;
+      padding: 52px 66px 44px;
+      background: #ffffff;
+      box-shadow: 0 20px 60px rgba(22, 34, 42, 0.22);
+    }
+
+    .eyebrow {
+      margin-bottom: 8px;
+      color: var(--teal);
+      font-size: 16px;
+      font-weight: 820;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 60px;
+      line-height: 0.95;
+      letter-spacing: 0;
+      font-weight: 860;
+    }
+
+    .subhead {
+      margin: 14px 0 0;
+      max-width: 690px;
+      color: var(--muted);
+      font-size: 22px;
+      line-height: 1.22;
+      font-weight: 520;
+    }
+
+    .slide-teaser {
+      display: grid;
+      grid-template-rows: auto 1fr;
+      row-gap: 36px;
+    }
+
+    .teaser-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 22px;
+      align-items: stretch;
+      min-height: 0;
+    }
+
+    .teaser-item {
+      display: grid;
+      grid-template-rows: minmax(0, 1fr) auto;
+      min-width: 0;
+      min-height: 0;
+    }
+
+    .teaser-image {
+      min-height: 0;
+      border-radius: 10px;
+      overflow: hidden;
+      background: var(--panel);
+      box-shadow: 0 18px 42px rgba(22, 34, 42, 0.13);
+    }
+
+    .teaser-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .teaser-label {
+      padding-top: 16px;
+    }
+
+    .teaser-label b {
+      display: block;
+      font-size: 26px;
+      line-height: 1;
+    }
+
+    .teaser-label span {
+      display: block;
+      margin-top: 7px;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.15;
+      font-weight: 680;
+    }
+
+    .slide-one {
+      display: grid;
+      grid-template-columns: 0.96fr 72px 0.94fr;
+      grid-template-rows: auto 1fr;
+      column-gap: 20px;
+    }
+
+    .headline {
+      grid-column: 1 / 4;
+      display: flex;
+      justify-content: space-between;
+      gap: 36px;
+      align-items: flex-start;
+      position: relative;
+      z-index: 3;
+    }
+
+    .badge {
+      flex: 0 0 auto;
+      min-width: 180px;
+      padding: 14px 17px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 253, 248, 0.82);
+      text-align: right;
+    }
+
+    .badge strong {
+      display: block;
+      color: var(--teal);
+      font-size: 28px;
+      line-height: 1;
+    }
+
+    .badge span {
+      display: block;
+      margin-top: 5px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 760;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .stack-stage {
+      grid-column: 1 / 2;
+      position: relative;
+      min-height: 0;
+      margin-top: 8px;
+      perspective: 1500px;
+    }
+
+    .stack {
+      position: absolute;
+      left: 176px;
+      top: -2px;
+      width: 540px;
+      height: 500px;
+      transform-style: preserve-3d;
+    }
+
+    .layer {
+      position: absolute;
+      width: 490px;
+      height: 340px;
+      border: 0;
+      border-radius: 10px;
+      overflow: hidden;
+      background: transparent;
+      box-shadow: 0 24px 36px rgba(22, 34, 42, 0.18);
+      transform: rotateX(58deg) rotateZ(-35deg);
+    }
+
+    .layer img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .layer-1 { left: 82px; top: 318px; }
+    .layer-2 { left: 56px; top: 226px; }
+    .layer-3 { left: 28px; top: 134px; }
+    .layer-4 { left: 0; top: 42px; }
+
+    .label {
+      position: absolute;
+      z-index: 6;
+      width: 164px;
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 253, 248, 0.92);
+      box-shadow: 0 10px 24px rgba(22, 34, 42, 0.09);
+    }
+
+    .label b {
+      display: block;
+      font-size: 18px;
+      line-height: 1.05;
+    }
+
+    .label span {
+      display: block;
+      margin-top: 5px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.16;
+      font-weight: 640;
+    }
+
+    .markets-label {
+      left: 18px;
+      top: 102px;
+    }
+
+    .roads-label {
+      left: 18px;
+      top: 202px;
+    }
+
+    .land-label {
+      left: 18px;
+      top: 302px;
+    }
+
+    .slope-label {
+      left: 18px;
+      top: 402px;
+    }
+
+    .flow-arrow {
+      grid-column: 2 / 3;
+      align-self: center;
+      justify-self: center;
+      width: 56px;
+      height: 56px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--ink);
+      color: white;
+      font-size: 34px;
+      font-weight: 800;
+      line-height: 1;
+      margin-top: 62px;
+      position: relative;
+      z-index: 4;
+    }
+
+    .access-map {
+      grid-column: 3 / 4;
+      align-self: stretch;
+      margin-top: 18px;
+      min-height: 0;
+      position: relative;
+      border: 1px solid rgba(18, 124, 122, 0.34);
+      border-radius: 10px;
+      overflow: hidden;
+      background: var(--panel);
+      box-shadow: 0 18px 40px rgba(22, 34, 42, 0.14);
+    }
+
+    .access-map img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .access-map .map-title {
+      position: absolute;
+      left: 18px;
+      top: 16px;
+      padding: 9px 12px;
+      border-radius: 999px;
+      background: rgba(255, 253, 248, 0.92);
+      color: var(--teal);
+      font-size: 16px;
+      line-height: 1;
+      font-weight: 850;
+    }
+
+    .access-map .map-note {
+      position: absolute;
+      left: 18px;
+      right: 18px;
+      bottom: 16px;
+      padding: 13px 14px;
+      border-radius: 8px;
+      background: rgba(255, 253, 248, 0.9);
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.16;
+      font-weight: 680;
+    }
+
+    .mini-sources {
+      position: absolute;
+      left: 66px;
+      right: 66px;
+      bottom: 24px;
+      color: #69767e;
+      font-size: 12px;
+      font-weight: 650;
+    }
+
+    .slide-two {
+      display: grid;
+      grid-template-rows: auto 1fr;
+      row-gap: 26px;
+    }
+
+    .combine-grid {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr 54px 1fr 54px 1fr;
+      gap: 16px;
+      align-items: center;
+      min-height: 0;
+    }
+
+    .data-panel {
+      position: relative;
+      height: 500px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: var(--panel);
+      overflow: hidden;
+      box-shadow: 0 16px 38px rgba(22, 34, 42, 0.11);
+    }
+
+    .data-panel img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .data-panel .tag {
+      position: absolute;
+      left: 18px;
+      top: 16px;
+      padding: 8px 11px;
+      border-radius: 999px;
+      background: rgba(255, 253, 248, 0.92);
+      color: var(--ink);
+      font-size: 15px;
+      line-height: 1;
+      font-weight: 850;
+    }
+
+    .join {
+      width: 46px;
+      height: 46px;
+      justify-self: center;
+      align-self: center;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--ink);
+      color: white;
+      font-size: 30px;
+      font-weight: 780;
+      line-height: 1;
+      z-index: 4;
+    }
+
+    .join.plus {
+      grid-column: 2 / 3;
+    }
+
+    .join.arrow {
+      grid-column: 4 / 5;
+      font-size: 25px;
+    }
+
+    .result {
+      border-color: rgba(18, 124, 122, 0.35);
+    }
+
+    .result-copy {
+      position: absolute;
+      left: 18px;
+      right: 18px;
+      bottom: 16px;
+      padding: 14px 15px;
+      border-radius: 8px;
+      background: rgba(255, 253, 248, 0.9);
+    }
+
+    .result-copy b {
+      display: block;
+      color: var(--teal);
+      font-size: 25px;
+      line-height: 1;
+    }
+
+    .result-copy span {
+      display: block;
+      margin-top: 7px;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.16;
+      font-weight: 650;
+    }
+
+    @media print {
+      @page {
+        size: 16in 9in;
+        margin: 0;
+      }
+
+      body {
+        background: white;
+      }
+
+      .deck {
+        display: block;
+        padding: 0;
+      }
+
+      .slide {
+        width: 16in;
+        height: 9in;
+        box-shadow: none;
+        page-break-after: always;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="deck">
+    <section class="slide slide-teaser" aria-label="Market accessibility input data teaser">
+      <header class="headline">
+        <div>
+          <div class="eyebrow">Data foundations</div>
+          <h1>The layers behind market access</h1>
+          <p class="subhead">The building blocks: markets, roads, land cover, and terrain.</p>
+        </div>
+      </header>
+
+      <div class="teaser-grid">
+        <figure class="teaser-item">
+          <div class="teaser-image">
+            <img src="market_accessibility_assets/stack_markets.png" alt="Market center points">
+          </div>
+          <figcaption class="teaser-label">
+            <b>Markets</b>
+            <span>EIAR market points</span>
+          </figcaption>
+        </figure>
+
+        <figure class="teaser-item">
+          <div class="teaser-image">
+            <img src="market_accessibility_assets/stack_roads.png" alt="Road network">
+          </div>
+          <figcaption class="teaser-label">
+            <b>Roads</b>
+            <span>OVT road network</span>
+          </figcaption>
+        </figure>
+
+        <figure class="teaser-item">
+          <div class="teaser-image">
+            <img src="market_accessibility_assets/stack_landcover.png" alt="Land cover">
+          </div>
+          <figcaption class="teaser-label">
+            <b>Land cover</b>
+            <span>Esri Land Cover</span>
+          </figcaption>
+        </figure>
+
+        <figure class="teaser-item">
+          <div class="teaser-image">
+            <img src="market_accessibility_assets/stack_slope.png" alt="Terrain and slope">
+          </div>
+          <figcaption class="teaser-label">
+            <b>Slope</b>
+            <span>DEM terrain</span>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="mini-sources">Sources: Ethiopian Institute of Agricultural Research (EIAR) | OVT Roads | Esri Land Cover | DEM</div>
+    </section>
+
+    <section class="slide slide-one" aria-label="Travel time layer inputs">
+      <header class="headline">
+        <div>
+          <div class="eyebrow">Market accessibility</div>
+          <h1>Travel-time layer inputs</h1>
+          <p class="subhead">A stack of spatial layers becomes minutes to the nearest market.</p>
+        </div>
+        <div class="badge">
+          <strong>500 m</strong>
+          <span>travel-time grid</span>
+        </div>
+      </header>
+
+      <div class="stack-stage">
+        <div class="stack" aria-hidden="true">
+          <div class="layer layer-1"><img src="market_accessibility_assets/stack_slope.png" alt=""></div>
+          <div class="layer layer-2"><img src="market_accessibility_assets/stack_landcover.png" alt=""></div>
+          <div class="layer layer-3"><img src="market_accessibility_assets/stack_roads.png" alt=""></div>
+          <div class="layer layer-4"><img src="market_accessibility_assets/stack_markets.png" alt=""></div>
+        </div>
+
+        <div class="label left-label markets-label"><b>Markets</b><span>EIAR market points</span></div>
+        <div class="label left-label roads-label"><b>Roads</b><span>OVT road speeds</span></div>
+        <div class="label left-label land-label"><b>Land cover</b><span>Off-road movement</span></div>
+        <div class="label left-label slope-label"><b>Slope</b><span>Elevation friction</span></div>
+      </div>
+
+      <div class="flow-arrow" aria-hidden="true">→</div>
+
+      <article class="access-map">
+        <img src="market_accessibility_assets/stack_travel_time.png" alt="Accessibility travel-time raster crop">
+        <div class="map-title">Accessibility map</div>
+        <div class="map-note">Minutes to the nearest market</div>
+      </article>
+
+      <div class="mini-sources">Sources: Ethiopian Institute of Agricultural Research (EIAR) | OVT Roads | Esri Land Cover | DEM</div>
+    </section>
+
+    <section class="slide slide-two" aria-label="Population assignment to markets">
+      <header class="headline">
+        <div>
+          <div class="eyebrow">From access to demand</div>
+          <h1>Assigning population to markets</h1>
+          <p class="subhead">Travel time defines the nearest market. Population counts are summed into that market.</p>
+        </div>
+      </header>
+
+      <div class="combine-grid">
+        <article class="data-panel">
+          <img src="market_accessibility_assets/stack_travel_time.png" alt="Travel time raster crop">
+          <div class="tag">Travel time</div>
+        </article>
+
+        <div class="join plus" aria-hidden="true">+</div>
+
+        <article class="data-panel">
+          <img src="market_accessibility_assets/stack_population.png" alt="Population raster crop">
+          <div class="tag">Population</div>
+        </article>
+
+        <div class="join arrow" aria-hidden="true">→</div>
+
+        <article class="data-panel result">
+          <img src="market_accessibility_assets/stack_allocated_markets.png" alt="Market allocation groups with market points">
+          <div class="tag">Market catchments</div>
+          <div class="result-copy">
+            <b>Population assigned to markets</b>
+            <span>People are grouped with the market they can reach fastest.</span>
+          </div>
+        </article>
+      </div>
+
+      <div class="mini-sources">Sources: WorldPop | Market accessibility raster | Ethiopian Institute of Agricultural Research (EIAR)</div>
+    </section>
+  </main>
+</body>
+</html>

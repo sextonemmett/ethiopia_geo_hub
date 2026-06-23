@@ -109,6 +109,34 @@
         "fcv modified"
       ]
     },
+    "ethiopia_conflict_classifications_adm3_2025": {
+      "title": "Ethiopia Conflict Classifications - ADM3 - 2025",
+      "layer_name": "ethiopia_conflict_classifications_adm3_2025",
+      "path": "data/conflict/ethiopia_conflict_classifications_adm3_2025.geojson",
+      "item_id": "a9d421cfe415432f816cdb10180364c7",
+      "batch_size": 25,
+      "snippet": "Ethiopia ADM3 woreda conflict classifications for the complete Jan-Dec 2025 period.",
+      "description": "ADM3 polygon layer generated from the conflict-app Ethiopia classification service for period 202501_202512 (Jan 2025 - Dec 2025), the most recent complete 12-month calendar-year period available from the local ACLED data. Classifications use ACLED battle-related deaths excluding Protests and Strategic developments, joined to FCV-modified ADM3 woreda boundaries. Key fields include status_label, status_code, conflict_affected, highly_conflict_affected, violence_affected, acled_brd_total, event_count, death_rate_100k, and period metadata.",
+      "license_info": "Source: ACLED. Review ACLED terms before redistributing beyond authorized World Bank/GeoHub users.",
+      "share": {
+        "org": false,
+        "everyone": false,
+        "group_ids": [
+          "31731315dc3a4f92adebf919c4651345"
+        ]
+      },
+      "tags": [
+        "eth",
+        "foundational_data",
+        "ethiopia",
+        "conflict",
+        "acled",
+        "adm3",
+        "woreda",
+        "classification",
+        "2025"
+      ]
+    },
     "ethiopia_drought_summary_2020_2025": {
       "title": "Ethiopia Drought Conditions Summary 2020-2025",
       "layer_name": "ethiopia_drought_summary_2020_2025",
